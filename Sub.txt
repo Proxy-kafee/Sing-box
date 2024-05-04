@@ -85,18 +85,20 @@
       "tag": "Internet",
       "outbounds": [
         "Best Latency",
-        "■ 🏈@SiNABiGO",
-        "■ 🎾@SiNABiGO",
-        "■ 🎱@SiNABiGO"
+        "■ 🍌@SiNABiGO",
+        "■ 🍏@SiNABiGO",
+        "■ 🍓@SiNABiGO",
+        "■ 🍑@SiNABiGO"
       ]
     },
     {
       "type": "urltest",
       "tag": "Best Latency",
       "outbounds": [
-        "■ 🏈@SiNABiGO",
-        "■ 🎾@SiNABiGO",
-        "■ 🎱@SiNABiGO"
+        "■ 🍌@SiNABiGO",
+        "■ 🍏@SiNABiGO",
+        "■ 🍓@SiNABiGO",
+        "■ 🍑@SiNABiGO"
       ],
       "url": "http://www.google.com/generate_204",
       "interval": "10m0s",
@@ -105,7 +107,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "■ 🏈@SiNABiGO",
+      "tag": "■ 🍌@SiNABiGO",
       "domain_strategy": "ipv4_only",
       "server": "193.38.54.48",
       "server_port": 443,
@@ -116,7 +118,7 @@
       "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
-        "server_name": "let-him-cook.ircp.online",
+        "server_name": "LeT-HiM-CoOk.iRcP.OnLiNe",
         "alpn": "h3",
         "min_version": "1.3",
         "max_version": "1.3",
@@ -134,9 +136,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "■ 🎾@SiNABiGO",
+      "tag": "■ 🍏@SiNABiGO",
       "domain_strategy": "ipv4_only",
-      "server": "207.211.149.120",
+      "server": "152.69.189.181",
       "server_port": 443,
       "password": "azadi1",
       "tls": {
@@ -159,9 +161,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "■ 🎱@SiNABiGO",
+      "tag": "■ 🍓@SiNABiGO",
       "domain_strategy": "ipv4_only",
-      "server": "158.179.16.247",
+      "server": "152.69.179.243",
       "server_port": 443,
       "up_mbps": 10000,
       "down_mbps": 10000,
@@ -189,6 +191,37 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "■ 🍑@SiNABiGO",
+      "domain_strategy": "ipv4_only",
+      "server": "158.179.26.29",
+      "server_port": 443,
+      "up_mbps": 10000,
+      "down_mbps": 10000,
+      "obfs": {
+        "type": "salamander",
+        "password": "azadi3"
+      },
+      "password": "azadi3",
+      "tls": {
+        "enabled": true,
+        "server_name": "azadi3.dgi000.store",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACCbXteRHXTt30OAU18ojqjAOCb+fq2qz259whXpVuf+JQAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
       "type": "direct",
       "tag": "direct"
     },
@@ -206,6 +239,10 @@
       {
         "port": 53,
         "outbound": "dns-out"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
       }
     ],
     "final": "Internet",
@@ -216,7 +253,7 @@
     "cache_file": {
       "enabled": true,
       "path": "cache.db",
-      "cache_id": "ircp"
+      "cache_id": "azadi"
     }
   }
 }
