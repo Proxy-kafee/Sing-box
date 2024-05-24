@@ -6,16 +6,16 @@
   "dns": {
     "servers": [
       {
-        "tag": "■@SiNABiGO👈کانال+تلگرام-dns",
-        "address": "tcp://8.8.8.8",
+        "tag": "Internet-dns",
+        "address": "https://8.8.8.8/dns-query",
         "address_resolver": "direct-dns",
-        "detour": "■@SiNABiGO👈کانال+تلگرام"
+        "detour": "Internet"
       },
       {
-        "tag": "بیاد نیکا-dns",
-        "address": "tcp://8.8.8.8",
+        "tag": "Best Latency-dns",
+        "address": "https://8.8.8.8/dns-query",
         "address_resolver": "direct-dns",
-        "detour": "بیاد نیکا"
+        "detour": "Best Latency"
       },
       {
         "tag": "direct-dns",
@@ -29,13 +29,13 @@
     ],
     "rules": [
       {
-        "outbound": "■@SiNABiGO👈کانال+تلگرام",
-        "server": "■@SiNABiGO👈کانال+تلگرام-dns",
+        "outbound": "Internet",
+        "server": "Internet-dns",
         "rewrite_ttl": 20
       },
       {
-        "outbound": "بیاد نیکا",
-        "server": "بیاد نیکا-dns",
+        "outbound": "Best Latency",
+        "server": "Best Latency-dns",
         "rewrite_ttl": 20
       },
       {
@@ -75,27 +75,45 @@
   "outbounds": [
     {
       "type": "selector",
-      "tag": "■@SiNABiGO👈کانال+تلگرام",
+      "tag": "Internet",
       "outbounds": [
-        "بیاد نیکا",
-        "■ 🐫@SiNABiGO",
-        "■ 🦒@SiNABiGO",
-        "■ 🦘@SiNABiGO",
-        "■ 🐘@SiNABiGO",
-        "■ 🐏@SiNABiGO",
-        "■ 🫏@SiNABiGO"
+        "Best Latency",
+        "♠️ ■ @SiNABiGO",
+        "♣️ ■ @SiNABiGO",
+        "♥️ ■ @SiNABiGO",
+        "♦️ ■ @SiNABiGO",
+        "🃏 ■ @SiNABiGO",
+        "🎴 ■ @SiNABiGO",
+        "🔭 ■ @SiNABiGO ",
+        "🚀 ■ @SiNABiGO ",
+        "🛰️ ■ @SiNABiGO",
+        "📡 ■ @SiNABiGO",
+        "🔮 ■ @SiNABiGO",
+        "🪩 ■ @SiNABiGO",
+        "🔬 ■ @SiNABiGO",
+        "🎛️ ■ @SiNABiGO",
+        "📟 ■ @SiNABiGO"
       ]
     },
     {
       "type": "urltest",
-      "tag": "بیاد نیکا",
+      "tag": "Best Latency",
       "outbounds": [
-        "■ 🐫@SiNABiGO",
-        "■ 🦒@SiNABiGO",
-        "■ 🦘@SiNABiGO",
-        "■ 🐘@SiNABiGO",
-        "■ 🐏@SiNABiGO",
-        "■ 🫏@SiNABiGO"
+        "♠️ ■ @SiNABiGO",
+        "♣️ ■ @SiNABiGO",
+        "♥️ ■ @SiNABiGO",
+        "♦️ ■ @SiNABiGO",
+        "🃏 ■ @SiNABiGO",
+        "🎴 ■ @SiNABiGO",
+        "🔭 ■ @SiNABiGO ",
+        "🚀 ■ @SiNABiGO ",
+        "🛰️ ■ @SiNABiGO",
+        "📡 ■ @SiNABiGO",
+        "🔮 ■ @SiNABiGO",
+        "🪩 ■ @SiNABiGO",
+        "🔬 ■ @SiNABiGO",
+        "🎛️ ■ @SiNABiGO",
+        "📟 ■ @SiNABiGO"
       ],
       "url": "http://www.google.com/generate_204",
       "interval": "10m0s",
@@ -104,7 +122,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "■ 🐫@SiNABiGO",
+      "tag": "♠️ ■ @SiNABiGO",
       "server": "193.38.54.48",
       "server_port": 443,
       "obfs": {
@@ -132,35 +150,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "■ 🦒@SiNABiGO",
-      "server": "37.221.127.169",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489-2"
-      },
-      "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489-2",
-      "tls": {
-        "enabled": true,
-        "server_name": "let-her-cook.ircp.online",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AFf+DQBTAAAgACDEm4x9dlkKtLblXP7y0ZjKr7g6DdP2WaOgIjI6ujcnTQAIAAEA",
-            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "■ 🦘@SiNABiGO",
+      "tag": "♣️ ■ @SiNABiGO",
       "server": "2a09:7c44:0:14::1",
       "server_port": 443,
       "obfs": {
@@ -188,8 +178,8 @@
     },
     {
       "type": "hysteria2",
-      "tag": "■ 🐘@SiNABiGO",
-      "server": "2a09:7c44:0:13::1",
+      "tag": "♥️ ■ @SiNABiGO",
+      "server": "37.221.127.169",
       "server_port": 443,
       "obfs": {
         "type": "salamander",
@@ -216,8 +206,276 @@
     },
     {
       "type": "hysteria2",
-      "tag": "■ 🐏@SiNABiGO",
-      "server": "152.69.179.155",
+      "tag": "♦️ ■ @SiNABiGO",
+      "server": "2a09:7c44:0:13::1",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489-2"
+      },
+      "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489-2",
+      "tls": {
+        "enabled": true,
+        "server_name": "let-her-cook.ircp.online",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACDEm4x9dlkKtLblXP7y0ZjKr7g6DdP2WaOgIjI6ujcnTQAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🃏 ■ @SiNABiGO",
+      "server": "188.114.96.12",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.ircp.online",
+        "alpn": "http/1.1",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray",
+        "headers": {
+          "Host": "cdn.ircp.online"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🎴 ■ @SiNABiGO",
+      "server": "2a06:98c1:3121::c",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.ircp.online",
+        "alpn": "http/1.1",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray",
+        "headers": {
+          "Host": "cdn.ircp.online"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔭 ■ @SiNABiGO ",
+      "server": "83.226.36.112",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "mH4pNtUvtJVz"
+      },
+      "password": "ONSqhzOs55xn",
+      "tls": {
+        "enabled": true,
+        "server_name": "sahand.hideandsurf.com",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACBM/7OFwc4Djax1NZ0sUGm0Y2cHVn9IfI7ZhzoeHCMucwAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🚀 ■ @SiNABiGO ",
+      "server": "188.114.96.12",
+      "server_port": 443,
+      "uuid": "81625684-4552-49f8-b1c1-1f14790528c5",
+      "tls": {
+        "enabled": true,
+        "server_name": "helloworld.hideandsurf.com",
+        "alpn": "http/1.1",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@so5-Sher4BaD",
+        "headers": {
+          "Host": "helloworld.hideandsurf.com"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🛰️ ■ @SiNABiGO",
+      "server": "2a06:98c1:3121::c",
+      "server_port": 443,
+      "uuid": "81625684-4552-49f8-b1c1-1f14790528c5",
+      "tls": {
+        "enabled": true,
+        "server_name": "helloworld.hideandsurf.com",
+        "alpn": "http/1.1",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@so5-Sher4BaD",
+        "headers": {
+          "Host": "helloworld.hideandsurf.com"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "📡 ■ @SiNABiGO",
+      "server": "37.27.40.21",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "2X2lDkApzb07"
+      },
+      "password": "qeUUaVSyGo+C",
+      "tls": {
+        "enabled": true,
+        "server_name": "alborz.hideandsurf.com",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACAFJYRCZAKXi0LALj940P/Rk9HyghmQHgA/4/NuM7uCUwAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔮 ■ @SiNABiGO",
+      "server": "2a01:4f9:c012:cece::1",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "2X2lDkApzb07"
+      },
+      "password": "qeUUaVSyGo+C",
+      "tls": {
+        "enabled": true,
+        "server_name": "alborz.hideandsurf.com",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACAFJYRCZAKXi0LALj940P/Rk9HyghmQHgA/4/NuM7uCUwAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🪩 ■ @SiNABiGO",
+      "server": "188.114.96.12",
+      "server_port": 443,
+      "uuid": "323f3148-db47-4f7c-a26e-50a53093c261",
+      "tls": {
+        "enabled": true,
+        "server_name": "duckngo.hideandsurf.com",
+        "alpn": "http/1.1",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fJ4A1dBV",
+        "headers": {
+          "Host": "duckngo.hideandsurf.com"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🔬 ■ @SiNABiGO",
+      "server": "2a06:98c1:3121::c",
+      "server_port": 443,
+      "uuid": "323f3148-db47-4f7c-a26e-50a53093c261",
+      "tls": {
+        "enabled": true,
+        "server_name": "duckngo.hideandsurf.com",
+        "alpn": "http/1.1",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fJ4A1dBV",
+        "headers": {
+          "Host": "duckngo.hideandsurf.com"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🎛️ ■ @SiNABiGO",
+      "server": "207.211.150.44",
       "server_port": 443,
       "obfs": {
         "type": "salamander",
@@ -244,8 +502,8 @@
     },
     {
       "type": "hysteria2",
-      "tag": "■ 🫏@SiNABiGO",
-      "server": "158.179.18.187",
+      "tag": "📟 ■ @SiNABiGO",
+      "server": "130.162.193.36",
       "server_port": 443,
       "up_mbps": 10000,
       "down_mbps": 10000,
@@ -296,7 +554,7 @@
         "outbound": "direct"
       }
     ],
-    "final": "■@SiNABiGO👈کانال+تلگرام",
+    "final": "Internet",
     "auto_detect_interface": true,
     "override_android_vpn": true
   },
