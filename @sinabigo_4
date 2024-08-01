@@ -1,1 +1,879 @@
-
+{
+    "log": {
+        "level": "warn",
+        "timestamp": true
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "https://94.140.14.14/dns-query",
+                "address_resolver": "dns-direct",
+                "strategy": "prefer_ipv4",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "8.8.8.8",
+                "address_resolver": "dns-local",
+                "strategy": "prefer_ipv4",
+                "detour": "direct",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": ".ir",
+                "server": "dns-direct",
+                "domain": [
+                    "sinabigo-sub3.pages.dev",
+                    "www.speedtest.net",
+                    "zula.ir"
+                ]
+            },
+            {
+                "disable_cache": true,
+                "rule_set": [
+                    "geosite-category-ads-all",
+                    "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers"
+                ],
+                "server": "dns-block"
+            }
+        ],
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "type": "direct",
+            "tag": "dns-in",
+            "listen": "127.0.0.1",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "inet4_address": "172.19.0.1/28",
+            "inet6_address": "fdfe:dcba:9876::1/126",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "endpoint_independent_nat": true,
+            "stack": "mixed",
+            "sniff": true,
+            "sniff_override_destination": true
+        },
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "127.0.0.1",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": true
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "selector",
+            "tag": "@🅢ⓘ🅝Ⓐ🅑ⓘ🅖Ⓞ👈کانال+تلگرام",
+            "outbounds": [
+                "⏱️🅢🅘🅝🅐🅑🅘🅖🅞",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_1 : 443",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_2 : 443",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_1 : 443",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_2 : 443",
+                "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_1 : 443",
+                "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_2 : 443",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_1 : 443",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_2 : 443",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_3 : 443",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_4 : 443",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_1 : 2083",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_2 : 2083",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_1 : 2083",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_2 : 2083",
+                "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_1 : 2083",
+                "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_2 : 2083",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_1 : 2083",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_2 : 2083",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_3 : 2083",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_4 : 2083"
+            ]
+        },
+        {
+            "type": "urltest",
+            "tag": "⏱️🅢🅘🅝🅐🅑🅘🅖🅞",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_1 : 443",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_2 : 443",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_1 : 443",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_2 : 443",
+                "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_1 : 443",
+                "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_2 : 443",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_1 : 443",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_2 : 443",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_3 : 443",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_4 : 443",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_1 : 2083",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_2 : 2083",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_1 : 2083",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_2 : 2083",
+                "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_1 : 2083",
+                "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_2 : 2083",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_1 : 2083",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_2 : 2083",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_3 : 2083",
+                "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_4 : 2083"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": "30s",
+            "tolerance": 50
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "block",
+            "tag": "block"
+        },
+        {
+            "type": "dns",
+            "tag": "dns-out"
+        },
+        {
+            "type": "vless",
+            "server": "sinabigo-sub3.pages.dev",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SINabiGo-SUb3.paGES.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "sinabigo-Sub3.paGEs.DeV"
+                },
+                "path": "/rNlg30VaHIJh2QKm",
+                "type": "ws"
+            },
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_1 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "sINABIGO-sUB3.PaGEs.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SinAbigo-sUb3.pAgES.deV"
+                },
+                "path": "/meOPR30NPYnIB5KU",
+                "type": "ws"
+            },
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_2 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "sINaBiGO-sUb3.PagEs.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "sinaBIGO-SUB3.PaGeS.dEV"
+                },
+                "path": "/Xlns7voJlKz48InT",
+                "type": "ws"
+            },
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_1 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "sinAbigo-sub3.paGes.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SInAbigo-sUB3.PAgES.dEv"
+                },
+                "path": "/ac0vYTdUO4El3TmY",
+                "type": "ws"
+            },
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_2 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "[2a06:98c1:3120::3]",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "sINABIgO-Sub3.PAgeS.dEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SinabIGo-SuB3.pAges.dEv"
+                },
+                "path": "/QtNUR1WhpJSD8Lq9",
+                "type": "ws"
+            },
+            "tag": "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_1 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "[2a06:98c1:3121::3]",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SiNABIgo-sub3.PagEs.dEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SInAbiGO-SuB3.PaGEs.dEv"
+                },
+                "path": "/T3YS0AefuQpT8Hxv",
+                "type": "ws"
+            },
+            "tag": "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_2 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SiNabIGO-Sub3.PAgES.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "sInabiGo-SUB3.PAGES.DeV"
+                },
+                "path": "/k6VCnph1bDajew4v",
+                "type": "ws"
+            },
+            "tag": "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_1 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "104.18.231.211",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "sINAbiGO-suB3.pagES.dEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "siNAbIGO-suB3.pages.dEv"
+                },
+                "path": "/hafFgLU80E0S17Ko",
+                "type": "ws"
+            },
+            "tag": "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_2 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "66.81.247.216",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SINABIGO-SUb3.PagES.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SinABiGo-SuB3.paGes.DeV"
+                },
+                "path": "/HEUL6KaNscZUdy97",
+                "type": "ws"
+            },
+            "tag": "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_3 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "194.152.44.222",
+            "server_port": 443,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SiNaBIGo-sUB3.paGEs.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "siNabIgo-SuB3.PAGes.dEv"
+                },
+                "path": "/zLJ6uk5lYXMBsMG5",
+                "type": "ws"
+            },
+            "tag": "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_4 : 443"
+        },
+        {
+            "type": "vless",
+            "server": "sinabigo-sub3.pages.dev",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SinABiGo-SUb3.pagES.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SInabiGo-sub3.pAgeS.DEv"
+                },
+                "path": "/nA8ghbZkEHliEDjk",
+                "type": "ws"
+            },
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_1 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "siNAbIGO-suB3.PagEs.dEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "sinaBIGo-Sub3.PAgES.dev"
+                },
+                "path": "/wJekafsx7jbul4ze",
+                "type": "ws"
+            },
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆_2 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SINaBIgO-sub3.pagEs.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SiNAbIgO-Sub3.PAgEs.dev"
+                },
+                "path": "/YhB94m0iDi0ZHzbt",
+                "type": "ws"
+            },
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_1 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SiNAbiGO-sub3.PAGES.dEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SInAbIgO-SUB3.Pages.DEv"
+                },
+                "path": "/IOnPzFIYhASCBtZG",
+                "type": "ws"
+            },
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊_2 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "[2a06:98c1:3120::3]",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SInABIgo-sUB3.pAges.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SiNabiGO-SuB3.pAgEs.Dev"
+                },
+                "path": "/kwRjGoGSASU45OQk",
+                "type": "ws"
+            },
+            "tag": "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_1 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "[2a06:98c1:3121::3]",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SINABigO-SuB3.PAGEs.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SiNABigo-Sub3.PaGes.deV"
+                },
+                "path": "/aNqTCPoe8x7ik6Qo",
+                "type": "ws"
+            },
+            "tag": "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎_2 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "sinABIgo-sub3.PaGeS.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SInAbIGO-sub3.pages.dEv"
+                },
+                "path": "/o5iGuxLpu4lK5NbG",
+                "type": "ws"
+            },
+            "tag": "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_1 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "104.18.231.211",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SinaBIgO-suB3.PAGeS.DEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SinAbigO-SuB3.paGeS.DEv"
+                },
+                "path": "/R0IHfFNuDKqi0NoW",
+                "type": "ws"
+            },
+            "tag": "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_2 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "66.81.247.216",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "sINabiGO-SuB3.pAgEs.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "SinABiGo-Sub3.PAgES.dEV"
+                },
+                "path": "/MLXIzyNLl4DIUHft",
+                "type": "ws"
+            },
+            "tag": "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_3 : 2083"
+        },
+        {
+            "type": "vless",
+            "server": "194.152.44.222",
+            "server_port": 2083,
+            "uuid": "851428ee-4c70-44a7-a4f8-0b04b496ef12",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "SInABigO-suB3.pAgES.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "sInabiGO-suB3.PAGEs.dEV"
+                },
+                "path": "/RxwTnlSnUTSN2u3m",
+                "type": "ws"
+            },
+            "tag": "@𝚂𝚒𝙽𝙰𝙱𝚒𝙶𝙾_4 : 2083"
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "port": 53,
+                "outbound": "dns-out"
+            },
+            {
+                "inbound": "dns-in",
+                "outbound": "dns-out"
+            },
+            {
+                "network": "udp",
+                "port": 443,
+                "protocol": "quic",
+                "outbound": "block"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geosite-category-ads-all",
+                    "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers",
+                    "geoip-malware",
+                    "geoip-phishing"
+                ],
+                "outbound": "block"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir",
+                    "geoip-ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "source_ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "outbound": "block"
+            }
+        ],
+        "rule_set": [
+            {
+                "type": "remote",
+                "tag": "geosite-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-category-ads-all",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-malware",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-phishing",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-cryptominers",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-malware",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-phishing",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
+                "download_detour": "direct"
+            }
+        ],
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "@🅢ⓘ🅝Ⓐ🅑ⓘ🅖Ⓞ👈کانال+تلگرام"
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true
+        },
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
+        }
+    }
+}
