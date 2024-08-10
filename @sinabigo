@@ -6,12 +6,12 @@
   "dns": {
     "servers": [
       {
-        "tag": "@🅢ⓘ🅝Ⓐ🅑ⓘ🅖Ⓞ👈کانال+تلگرام-dns",
+        "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈کانال+تلگرام-dns",
         "address": "https://8.8.8.8/dns-query",
         "address_resolver": "direct-dns",
         "address_strategy": "prefer_ipv6",
         "strategy": "prefer_ipv6",
-        "detour": "@🅢ⓘ🅝Ⓐ🅑ⓘ🅖Ⓞ👈کانال+تلگرام"
+        "detour": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈کانال+تلگرام"
       },
       {
         "tag": "@🆂🅸🅽🅰🅱🅸🅶🅾-dns",
@@ -60,8 +60,8 @@
         "rewrite_ttl": 20
       },
       {
-        "outbound": "@🅢ⓘ🅝Ⓐ🅑ⓘ🅖Ⓞ👈کانال+تلگرام",
-        "server": "@🅢ⓘ🅝Ⓐ🅑ⓘ🅖Ⓞ👈کانال+تلگرام-dns",
+        "outbound": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈کانال+تلگرام",
+        "server": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈کانال+تلگرام-dns",
         "rewrite_ttl": 20
       },
       {
@@ -107,25 +107,89 @@
   "outbounds": [
     {
       "type": "selector",
-      "tag": "@🅢ⓘ🅝Ⓐ🅑ⓘ🅖Ⓞ👈کانال+تلگرام",
+      "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈کانال+تلگرام",
       "outbounds": [
         "@🆂🅸🅽🅰🅱🅸🅶🅾",
-        "🍓 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-        "🥒 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-        "🥕 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-        "🍇 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-        "🍌 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎"
+                "🇳🇱 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 1",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 2",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 3",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 4",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 5",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 6",
+                "🇰🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 7",
+                "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 8",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 9",
+                "🇬🇧 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 10",
+                "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 11",
+                "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 12",
+                "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 13",
+                "🇦🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 14",
+                "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 15",
+                "🇻🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 16",
+                "🇹🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 17",
+                "🇲🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 18",
+                "🇫🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 19",
+                "🇸🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 20",
+                "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 21",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 22",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 23",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 24",
+                "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 25",
+                "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 26",
+                "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 27",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 28",
+                "🇬🇧 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 29",
+                "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 30",
+                "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 31",
+                "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 32",
+                "🇦🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 33",
+                "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 34",
+                "🇲🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 35",
+                "🇻🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 36",
+                "🇹🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 37"
       ]
     },
     {
       "type": "urltest",
       "tag": "@🆂🅸🅽🅰🅱🅸🅶🅾",
       "outbounds": [
-        "🍓 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-        "🥒 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-        "🥕 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-        "🍇 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-        "🍌 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎"
+                "🇳🇱 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 1",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 2",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 3",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 4",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 5",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 6",
+                "🇰🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 7",
+                "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 8",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 9",
+                "🇬🇧 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 10",
+                "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 11",
+                "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 12",
+                "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 13",
+                "🇦🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 14",
+                "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 15",
+                "🇻🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 16",
+                "🇹🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 17",
+                "🇲🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 18",
+                "🇫🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 19",
+                "🇸🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 20",
+                "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 21",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 22",
+                "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 23",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 24",
+                "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 25",
+                "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 26",
+                "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 27",
+                "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 28",
+                "🇬🇧 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 29",
+                "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 30",
+                "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 31",
+                "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 32",
+                "🇦🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 33",
+                "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 34",
+                "🇲🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 35",
+                "🇻🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 36",
+                "🇹🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 37"
       ],
       "url": "http://www.google.com/generate_204",
       "interval": "10m0s",
@@ -134,145 +198,512 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🍓 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-      "domain_strategy": "prefer_ipv6",
-      "server": "h.88981401.xyz",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489"
-      },
-      "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tag": "🇳🇱 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 1",
+      "server": "158.101.218.147",
+      "server_port": 35000,
+      "password": "5d4b89cd-08ca-43d7-a817-05e7deeee5fa",
       "tls": {
         "enabled": true,
-        "server_name": "let-him-cook.ircp.online",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AFf+DQBTAAAgACCc2kqEYGusiYc5fj1smMpQJYQLckpS1bgOaCDLvoiofgAIAAEA",
-            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
+        "server_name": "www.apple.com",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "🥒 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-      "domain_strategy": "prefer_ipv6",
-      "server": "arvancloudstatus.ir",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.ircp.online",
-        "alpn": "http/1.1",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "cdn.ircp.online"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🥕 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-      "domain_strategy": "prefer_ipv6",
-      "server": "all-in.daiijannapoleon.fun",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "@azadi_az_inja_migzare-29cf96e6-8008-4233-a883-4b5daeb72309"
-      },
-      "password": "@azadi_az_inja_migzare-29cf96e6-8008-4233-a883-4b5daeb72309",
+      "tag": "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 2",
+      "server": "sg2.zhenshihui.one",
+      "server_port": 48489,
+      "password": "9ed3479e-9e53-4346-8a5a-e794b191844a",
       "tls": {
-        "enabled": true,
-        "server_name": "all-in.seyed-ali-khamenei-binamous.site",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AFf+DQBTAAAgACDvMP0oe54OZPicZE/p+nkwrcMOAeWte99Ye2i7BbTwHgAIAAEA",
-            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
+        "enabled": true
       }
     },
     {
-      "type": "vless",
-      "tag": "🍇 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-      "domain_strategy": "prefer_ipv6",
-      "server": "arvancloudstatus.ir",
-      "server_port": 443,
-      "uuid": "29cf96e6-8008-4233-a883-4b5daeb72309",
+      "type": "hysteria2",
+      "tag": "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 3",
+      "server": "207.211.183.244",
+      "server_port": 35000,
+      "password": "5d4b89cd-08ca-43d7-a817-05e7deeee5fa",
       "tls": {
         "enabled": true,
-        "server_name": "all-in-cdn.seyed-ali-khamenei-binamous.site",
-        "alpn": "http/1.1",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@azadi_az_inja_migzare",
-        "headers": {
-          "Host": "all-in-cdn.seyed-ali-khamenei-binamous.site"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.apple.com",
+        "insecure": true
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "🍌 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎",
-      "domain_strategy": "ipv4_only",
-      "server": "azadi2.dgi000.store",
-      "server_port": 443,
+      "tag": "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 4",
+      "server": "sg4.shiyuandian.shop",
+      "server_port": 25804,
       "obfs": {
         "type": "salamander",
-        "password": "azadi2"
+        "password": "PpZuZR5vKTq3SG7C"
       },
-      "password": "azadi2",
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
       "tls": {
         "enabled": true,
-        "server_name": "azadi2.dgi000.store",
+        "disable_sni": true,
         "insecure": true,
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----", "AFf+DQBTAAAgACCkinnV7xhAgfgYMag1gZvWrsODivfQnc24kR2wTsH1RgAIAAEA",
-            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
+        "alpn": "h3"
       }
     },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 5",
+      "server": "sg5.shiyuandian.shop",
+      "server_port": 23927,
+      "obfs": {
+        "type": "salamander",
+        "password": "g0fCTmFQ7tvoYavS"
+      },
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 6",
+      "server": "us2.zhenshihui.one",
+      "server_port": 48489,
+      "password": "9ed3479e-9e53-4346-8a5a-e794b191844a",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 7",
+      "server": "kr1.shiyuandian.shop",
+      "server_port": 26838,
+      "obfs": {
+        "type": "salamander",
+        "password": "PpZuZR5vKTq3SG7C"
+      },
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 8",
+      "server": "osaka002-a.oraclenat.cc",
+      "server_port": 18302,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 9",
+      "server": "us1.shiyuandian.shop",
+      "server_port": 22498,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇬🇧 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 10",
+      "server": "uk1.shiyuandian.shop",
+      "server_port": 24098,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 11",
+      "server": "de1.shiyuandian.shop",
+      "server_port": 22402,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 12",
+      "server": "in2.shiyuandian.shop",
+      "server_port": 22172,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 13",
+      "server": "in3.shiyuandian.shop",
+      "server_port": 23216,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 14",
+      "server": "au.shiyuandian.shop",
+      "server_port": 26830,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 15",
+      "server": "hk2.shiyuandian.shop",
+      "server_port": 26167,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇻🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 16",
+      "server": "vn1.shiyuandian.shop",
+      "server_port": 23916,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 17",
+      "server": "tr1.shiyuandian.shop",
+      "server_port": 24281,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇲🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 18",
+      "server": "il1.shiyuandian.shop",
+      "server_port": 25908,
+      "password": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 19",
+      "server": "129.151.242.47",
+      "server_port": 35000,
+      "password": "5d4b89cd-08ca-43d7-a817-05e7deeee5fa",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 20",
+      "server": "129.151.220.170",
+      "server_port": 35000,
+      "password": "5d4b89cd-08ca-43d7-a817-05e7deeee5fa",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 21",
+      "server": "141.147.19.58",
+      "server_port": 35000,
+      "password": "5d4b89cd-08ca-43d7-a817-05e7deeee5fa",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.push.apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 22",
+      "server": "sg4.shiyuandian.shop",
+      "server_port": 6782,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇸🇬 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 23",
+      "server": "sg5.shiyuandian.shop",
+      "server_port": 9913,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "obfs": "g0fCTmFQ7tvoYavS",
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 24",
+      "server": "us.ktmurl.club",
+      "server_port": 18383,
+      "password": "c594f7c8-cef6-44e2-921e-91d66e078496",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 25",
+      "server": "jp.zhenshihui.one",
+      "server_port": 48489,
+      "password": "9ed3479e-9e53-4346-8a5a-e794b191844a",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇯🇵 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 26",
+      "server": "osaka002-a.oraclenat.cc",
+      "server_port": 18301,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 27",
+      "server": "hk2.zhenshihui.one",
+      "server_port": 48489,
+      "password": "9ed3479e-9e53-4346-8a5a-e794b191844a",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇺🇸 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 28",
+      "server": "us1.shiyuandian.shop",
+      "server_port": 8377,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇬🇧 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 29",
+      "server": "uk1.shiyuandian.shop",
+      "server_port": 8286,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇩🇪 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 30",
+      "server": "de1.shiyuandian.shop",
+      "server_port": 10513,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 31",
+      "server": "in2.shiyuandian.shop",
+      "server_port": 6822,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇮🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 32",
+      "server": "in3.shiyuandian.shop",
+      "server_port": 7777,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇦🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 33",
+      "server": "au.shiyuandian.shop",
+      "server_port": 10114,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇭🇰 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 34",
+      "server": "hk2.shiyuandian.shop",
+      "server_port": 10977,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇲🇺 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 35",
+      "server": "il1.shiyuandian.shop",
+      "server_port": 8920,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇻🇳 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 36",
+      "server": "vn1.shiyuandian.shop",
+      "server_port": 10857,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇹🇷 ■ @𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 § 37",
+      "server": "tr1.shiyuandian.shop",
+      "server_port": 7605,
+      "up_mbps": 30,
+      "down_mbps": 70,
+      "auth_str": "2855807c-ec94-4934-aab6-1f86a0c373ff",
+      "disable_mtu_discovery": true,
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "insecure": true,
+        "alpn": "h3"
+      }
+      },
     {
       "type": "direct",
       "tag": "direct"
@@ -297,7 +728,7 @@
         "outbound": "direct"
       }
     ],
-    "final": "@🅢ⓘ🅝Ⓐ🅑ⓘ🅖Ⓞ👈کانال+تلگرام",
+    "final": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆👈کانال+تلگرام",
     "auto_detect_interface": true,
     "override_android_vpn": true
   },
