@@ -388,7 +388,7 @@
       "server": "217.30.10.18",
       "server_port": 9037,
       "method": "aes-256-cfb",
-      "password": "Lp27rqyJq72bZsqX"
+      "password": "daFYagqDdBdA6VTX"
     },
     {
       "type": "shadowsocks",
