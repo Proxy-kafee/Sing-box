@@ -353,97 +353,52 @@
       "type": "shadowsocks",
       "tag": "10",
       "server": "217.30.10.18",
-      "server_port": 9037,
+      "server_port": 9064,
       "method": "aes-256-cfb",
-      "password": "TN2YqghxeFDKZfLU"
+      "password": "cp8pRSUAyLhTfVWH"
     },
+
     {
       "type": "shadowsocks",
       "tag": "11",
       "server": "217.30.10.18",
-      "server_port": 9041,
+      "server_port": 9014,
       "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
+      "password": "KnJGad3FqTvjqbaX"
     },
     {
       "type": "shadowsocks",
       "tag": "12",
       "server": "217.30.10.18",
-      "server_port": 9015,
+      "server_port": 9008,
       "method": "aes-256-cfb",
-      "password": "ZpNDDKRu9MagNvaf"
+      "password": "y9VURyNzJWNRYEGQ"
     },
-        {
-  "type": "http",
-  "tag": "13",
-  "server": "45.85.144.100",
-  "server_port": 89,
-  "username": "E93HGGpA8jQPvnehhrA7DwoD",
-  "password": "C8dAN1ccgBNyBqG4WCFynQXH",
-  "path": "",
-                "headers": {
-                    "Host": [
-                        "marilynmanson.link"
-                    ]
-                },
-  "tls": {  "enabled": true,
-  "disable_sni": false,
-  "alpn": ["h2,http/1.1"],
-  "server_name": "icloud.cdn-apple.com",
-  "insecure": true}
-        },
-        {
-            "type": "vless",
-            "tag": "14",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.dev",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/XV2ray?ed=512",
-                "headers": {
-                    "Host": "fastxv.pages.dev"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-  "type": "http",
-  "tag": "15",
-  "server": "194.233.96.179",
-  "server_port": 89,
-  "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-  "password": "Emy3zUbgjrz4mPxuwZSNmuLP",
-  "path": "",
-                "headers": {
-                    "Host": [
-                        "marilynmanson.link"
-                    ]
-                },
-  "tls": {  "enabled": true,
-  "disable_sni": false,
-  "alpn": ["h2,http/1.1"],
-  "server_name": "whatismyipaddress.com",
-  "insecure": true}
- 
-},
+    {
+      "type": "shadowsocks",
+      "tag": "13",
+      "server": "217.30.10.18",
+      "server_port": 9018,
+      "method": "aes-256-cfb",
+      "password": "fG2artUmHfNT2cX7"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "14",
+      "server": "217.30.10.18",
+      "server_port": 9037,
+      "method": "aes-256-cfb",
+      "password": "Lp27rqyJq72bZsqX"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "15",
+      "server": "217.30.10.18",
+      "server_port": 9041,
+      "method": "aes-256-cfb",
+      "password": "U6qnYRhfyDmn8sgn"
+    },
+
         {
       "type": "shadowsocks",
       "tag": "16",
