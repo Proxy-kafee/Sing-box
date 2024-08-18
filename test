@@ -1,4 +1,4 @@
-{
+ {
   "log": {
     "disabled": true,
     "level": "panic"
@@ -386,7 +386,7 @@
       "type": "shadowsocks",
       "tag": "14",
       "server": "217.30.10.18",
-      "server_port": 9073,
+      "server_port": 9097,
       "method": "aes-256-cfb",
       "password": "Sn5B7jTqr76aCJT8"
     },
