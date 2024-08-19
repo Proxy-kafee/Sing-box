@@ -131,9 +131,7 @@
                 "🎺@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🎹@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🃏@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-                "🀄️@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🍕@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-                "🤼@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🩳@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "👙@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🩲@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام"
@@ -164,9 +162,7 @@
                 "🎺@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🎹@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🃏@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-                "🀄️@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🍕@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-                "🤼@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🩳@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "👙@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
                 "🩲@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام"
@@ -460,72 +456,37 @@
  
 },
 {
-  "type": "http",
-  "tag": "🃏@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-  "server": "155.133.17.16",
-  "server_port": 90,
-  "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-  "password": "Emy3zUbgjrz4mPxuwZSNmuLP",
-  "path": "",
-                "headers": {
-                    "Host": [
-                        "marilynmanson.link"
-                    ]
-                },
-  "tls": {  "enabled": true,
-  "disable_sni": false,
-  "alpn": [],
-  "server_name": "32taksi.com",
-  "insecure": true}
- 
-},
-{
-  "type": "http",
-  "tag": "🀄️@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-  "server": "185.213.82.128",
-  "server_port": 90,
-  "username": "E93HGGpA8jQPvnehhrA7DwoD",
-  "password": "C8dAN1ccgBNyBqG4WCFynQXH",
-  "path": "",
-                "headers": {
-                    "Host": [
-                        "marilynmanson.link"
-                    ]
-                },
-  "tls": {  "enabled": true,
-  "disable_sni": false,
-  "alpn": [],
-  "server_name": "32taksi.com",
-  "insecure": true}
- 
-},
-
+      "type": "hysteria2",
+      "tag": "🃏@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
+      "domain_strategy": "prefer_ipv6",
+      "server": "h2.88981401.xyz",
+      "server_port": 443,
+      "password": "yVdMahZlkkgk",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.55994421.xyz",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACBgC+U935o5TbXkGxia/GgQYBb3+goW2Z0l/6se3ObxZwAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
 {
   "type": "http",
   "tag": "🍕@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-  "server": "185.213.82.128",
+  "server": "185.169.255.9",
   "server_port": 90,
-"username": "yLoEDZiuRqdg8HqQfaEMXhzn", "password": "Emy3zUbgjrz4mPxuwZSNmuLP",
-  "path": "",
-                "headers": {
-                    "Host": [
-                        "marilynmanson.link"
-                    ]
-                },
-  "tls": {  "enabled": true,
-  "disable_sni": false,
-  "alpn": [],
-  "server_name": "32taksi.com",
-  "insecure": true}
- 
-},
-{
-  "type": "http",
-  "tag": "🤼@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-  "server": "185.214.97.130",
-  "server_port": 90,
-  "username": "E93HGGpA8jQPvnehhrA7DwoD",
-  "password": "C8dAN1ccgBNyBqG4WCFynQXH",
+  "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+   "password": "Emy3zUbgjrz4mPxuwZSNmuLP",
   "path": "",
                 "headers": {
                     "Host": [
