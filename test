@@ -139,52 +139,52 @@
       "tag": "Internet",
       "outbounds": [
         "Best Latency",
-                "🇦🇺 AUS",
-                "🇨🇭 CHE 1",
-                "🇨🇭 CHE 2",
-                "🇨🇦 T.ME/wearestand",
-                "🇨🇾 T.ME/iranramona",
-                "🇬🇪 T.ME/wearestand",
-                "🇧🇴 T.ME/iranramona",
-                "🇭🇳 T.ME/wearestand",
-                "🇸🇪 T.ME/iranramona",
-                "🇩🇪 T.ME/wearestand",
-                "🇺🇿 T.ME/iranramona",
-                "🇨🇭 T.ME/wearestand",
-                "🇦🇺 T.ME/iranramona",
-                "🇪🇸 T.ME/wearestand",
-                "🇭🇺 T.ME/iranramona",
-                "🇧🇪 T.ME/wearestand",
-                "🇸🇬 T.ME/iranramona",
-                "🇵🇭 T.ME/wearestand",
-                "🇱🇧 T.ME/iranramona",
-                "🇺🇸 T.ME/wearestand"
+        "🇦🇺 AUS",
+        "🇨🇭 CHE 1",
+        "🇨🇭 CHE 2",
+        "🇨🇦CANADA",
+        "🇨🇾CYPRUS",
+        "🇬🇪GEORGIA",
+        "🇧🇴BOLIVIA",
+        "🇭🇳HONDURAS",
+        "🇸🇪SWEDEN",
+        "🇩🇪GERMANY",
+        "🇺🇿Uzbekistan",
+        "🇨🇭SWITZERLAND",
+        "🇦🇺AUSTRALIA",
+        "🇪🇸SPAIN",
+        "🇭🇺HUNGARY",
+        "🇧🇪BELGIUM",
+        "🇸🇬SINGAPORE",
+        "🇵🇭PHILIPPINES",
+        "🇱🇧LEBANON",
+        "🇺🇸UNITED STATES"
       ]
     },
     {
       "type": "urltest",
       "tag": "Best Latency",
       "outbounds": [
-                "🇦🇺 AUS",
-                "🇨🇭 CHE 1",
-                "🇨🇭 CHE 2",
-                "🇨🇦 T.ME/wearestand",
-                "🇨🇾 T.ME/iranramona",
-                "🇬🇪 T.ME/wearestand",
-                "🇧🇴 T.ME/iranramona",
-                "🇭🇳 T.ME/wearestand",
-                "🇸🇪 T.ME/iranramona",
-                "🇩🇪 T.ME/wearestand",
-                "🇺🇿 T.ME/iranramona",
-                "🇨🇭 T.ME/wearestand",
-                "🇦🇺 T.ME/iranramona",
-                "🇪🇸 T.ME/wearestand",
-                "🇭🇺 T.ME/iranramona",
-                "🇧🇪 T.ME/wearestand",
-                "🇸🇬 T.ME/iranramona",
-                "🇵🇭 T.ME/wearestand",
-                "🇱🇧 T.ME/iranramona",
-                "🇺🇸 T.ME/wearestand"
+        "🇦🇺 AUS",
+        "🇨🇭 CHE 1",
+        "🇨🇭 CHE 2",
+        "🇨🇦CANADA",
+        "🇨🇾CYPRUS",
+        "🇬🇪GEORGIA",
+        "🇧🇴BOLIVIA",
+        "🇭🇳HONDURAS",
+        "🇸🇪SWEDEN",
+        "🇩🇪GERMANY",
+        "🇺🇿Uzbekistan",
+        "🇨🇭SWITZERLAND",
+        "🇦🇺AUSTRALIA",
+        "🇪🇸SPAIN",
+        "🇭🇺HUNGARY",
+        "🇧🇪BELGIUM",
+        "🇸🇬SINGAPORE",
+        "🇵🇭PHILIPPINES",
+        "🇱🇧LEBANON",
+        "🇺🇸UNITED STATES"
       ],
       "url": "http://www.google.com/generate_204",
       "interval": "3m0s",
@@ -278,421 +278,296 @@
         }
       }
     },
+
+{
+      "type": "http",
+      "tag": "🇨🇦CANADA",
+      "server": "66.111.61.161",
+      "server_port": 90,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
     {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "66.111.61.161",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇨🇦CANADA",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-            "path": "",
-            "server": "195.47.194.65",
-            "server_port": 89,
-            "domain_strategy": "",
-            "tag": "🇨🇾CYPRUS",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
-        },
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "81.17.123.114",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇬🇪GEORGIA",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-        
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "45.134.189.1",
-            "server_port": 89,
-            "domain_strategy": "",
-            "tag": "🇧🇴BOLIVIA",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-               "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "193.9.32.3",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇭🇳HONDURAS",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-        
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "31.13.191.155",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇸🇪SWEDEN",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "194.233.96.24",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇩🇪GERMANY",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-        
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "212.97.64.1",
-            "server_port": 89,
-            "domain_strategy": "",
-            "tag": "🇺🇿Uzbekistan",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-        
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "89.37.173.162",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇨🇭SWITZERLAND",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-        
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "116.90.72.75",
-            "server_port": 89,
-            "domain_strategy": "",
-            "tag": "🇦🇺AUSTRALIA",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-{
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "F1P4EJa45WxJYNRQKFqVc936",
-            "path": "",
-            "server": "185.214.97.110",
-            "server_port": 89,
-            "domain_strategy": "",
-            "tag": "🇪🇸SPAIN",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
-        },
-{
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-            "path": "",
-            "server": "217.138.192.43",
-            "server_port": 89,
-            "domain_strategy": "",
-            "tag": "🇭🇺HUNGARY",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
-        },
-{
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-            "path": "",
-            "server": "37.120.143.3",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇧🇪BELGIUM",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
-        },
-{
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-            "path": "",
-            "server": "149.34.253.206",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇸🇬SINGAPORE",
-             "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
-        },
-
-        {
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-            "path": "",
-            "server": "212.97.71.1",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇵🇭PHILIPPINES",
-             "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
-        },
-{
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-            "path": "",
-            "server": "212.97.70.3",
-            "server_port": 89,
-            "domain_strategy": "",
-            "tag": "🇱🇧LEBANON",
-             "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
-        },
-{
-            "headers": {
-                "Host": [
-                    "marilynmanson.link"
-                ]
-            },
-            "password": "C8dAN1ccgBNyBqG4WCFynQXH",
-            "path": "",
-            "server": "66.111.61.233",
-            "server_port": 90,
-            "domain_strategy": "",
-            "tag": "🇺🇸UNITED STATES",
-             "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "gitlab.com"
-            },
-            "type": "http",
-            "username": "E93HGGpA8jQPvnehhrA7DwoD"
-        },
+      "type": "http",
+      "tag": "🇨🇾CYPRUS",
+      "server": "195.47.194.65",
+      "server_port": 89,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇬🇪GEORGIA",
+      "server": "81.17.123.114",
+      "server_port": 90,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇧🇴BOLIVIA",
+      "server": "45.134.189.1",
+      "server_port": 89,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇭🇳HONDURAS",
+      "server": "193.9.32.3",
+      "server_port": 90,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇸🇪SWEDEN",
+      "server": "31.13.191.155",
+      "server_port": 90,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇩🇪GERMANY",
+      "server": "194.233.96.24",
+      "server_port": 90,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇺🇿Uzbekistan",
+      "server": "212.97.64.1",
+      "server_port": 89,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇨🇭SWITZERLAND",
+      "server": "89.37.173.162",
+      "server_port": 90,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇦🇺AUSTRALIA",
+      "server": "116.90.72.75",
+      "server_port": 89,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇪🇸SPAIN",
+      "server": "185.214.97.110",
+      "server_port": 89,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇭🇺HUNGARY",
+      "server": "217.138.192.43",
+      "server_port": 89,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇧🇪BELGIUM",
+      "server": "37.120.143.3",
+      "server_port": 90,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇸🇬SINGAPORE",
+      "server": "149.34.253.206",
+      "server_port": 90,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇵🇭PHILIPPINES",
+      "server": "212.97.71.1",
+      "server_port": 90,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇱🇧LEBANON",
+      "server": "212.97.70.3",
+      "server_port": 89,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "🇺🇸UNITED STATES",
+      "server": "66.111.61.233",
+      "server_port": 90,
+      "username": "E93HGGpA8jQPvnehhrA7DwoD",
+      "password": "C8dAN1ccgBNyBqG4WCFynQXH",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
     {
       "type": "direct",
       "tag": "direct"
