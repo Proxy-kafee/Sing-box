@@ -570,6 +570,10 @@
         "Host": "marilynmanson.link"
       }
     },
+{
+      "type": "dns",
+      "tag": "dns-out"
+    },
     {
       "type": "direct",
       "tag": "direct"
@@ -584,12 +588,12 @@
       }
     },
     {
-      "type": "block",
-      "tag": "block"
+      "type": "direct",
+      "tag": "bypass"
     },
     {
-      "type": "dns",
-      "tag": "dns-out"
+      "type": "block",
+      "tag": "block"
     }
   ],
   "route": {
