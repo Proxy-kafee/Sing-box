@@ -52,7 +52,7 @@
         "rewrite_ttl": 20
       },
       {
-        "clash_mode": "ذخیره باطری",
+        "clash_mode": "Save Battery",
         "server": "Internet-dns",
         "rewrite_ttl": 20
       },
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "type": "کشته شدگان آبان ٩٨",
+      "type": "Aban98",
       "tag": "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
       "outbounds": [
         "🇦🇺 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
@@ -599,7 +599,7 @@
         "outbound": "block"
       },
       {
-        "clash_mode": "ذخیره باطری",
+        "clash_mode": "Save Battery",
         "outbound": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام"
       },
       {
