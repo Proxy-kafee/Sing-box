@@ -136,6 +136,20 @@
     }
   ],
   "outbounds": [
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "direct",
+            "tag": "fragment",
+            "tcp_fast_open": false,
+            "tls_fragment": {
+                "enabled": true,
+                "size": "20-100",
+                "sleep": "0-2"
+            }
+        },
     {
       "type": "selector",
       "tag": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام",
@@ -574,22 +588,6 @@
       "type": "direct",
       "tag": "direct"
     },
-   ],
-    "outbounds": [
-        {
-            "type": "direct",
-            "tag": "direct"
-        },
-        {
-            "type": "direct",
-            "tag": "fragment",
-            "tcp_fast_open": false,
-            "tls_fragment": {
-                "enabled": true,
-                "size": "20-100",
-                "sleep": "0-2"
-            }
-        },
     {
       "type": "block",
       "tag": "block"
