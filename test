@@ -12,6 +12,11 @@
         "detour": "Internet"
       },
       {
+        "tag": "dns-trick-direct",
+        "address": "https://sky.rethinkdns.com/",
+        "detour": "direct-fragment"
+      },
+      {
         "tag": "Best Latency-dns",
         "address": "fakeip",
         "strategy": "prefer_ipv4",
