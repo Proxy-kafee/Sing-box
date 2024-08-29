@@ -574,7 +574,7 @@
       "type": "direct",
       "tag": "direct"
     },
-
+   ],
     "outbounds": [
         {
             "type": "direct",
