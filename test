@@ -572,7 +572,12 @@
     },
     {
       "type": "direct",
-      "tag": "direct"
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "50-100",
+        "sleep": "10-20"
+      }
     },
     {
       "type": "block",
