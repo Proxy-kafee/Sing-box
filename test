@@ -1,160 +1,107 @@
 {
   "log": {
-    "disabled": true,
-    "level": "panic"
+    "level": "warn",
+    "output": "box.log",
+    "timestamp": true
   },
   "dns": {
     "servers": [
       {
-        "tag": "Internet-dns",
-        "address": "tcp://94.140.14.14",
-        "strategy": "prefer_ipv4",
-        "detour": "Internet"
+        "tag": "dns-remote",
+        "address": "udp://1.1.1.1",
+        "address_resolver": "dns-direct"
       },
       {
-        "tag": "Best Latency-dns",
-        "address": "fakeip",
-        "strategy": "prefer_ipv4",
-        "detour": "Best Latency"
+        "tag": "dns-trick-direct",
+        "address": "https://sky.rethinkdns.com/",
+        "detour": "direct-fragment"
       },
       {
-        "tag": "direct-dns",
-        "address": "udp://8.8.8.8",
-        "strategy": "prefer_ipv4",
+        "tag": "dns-direct",
+        "address": "1.1.1.1",
+        "address_resolver": "dns-local",
         "detour": "direct"
       },
       {
-        "tag": "block-dns",
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
         "address": "rcode://success"
       }
     ],
     "rules": [
       {
-        "domain_suffix": [
-          "a1.dgi000.store",
-          "a2.dgi000.store",
+        "domain": [
           "a3.dgi000.store",
-          "marilynmanson.link",
-          "gitlab.com"
+          "a1.dgi000.store",
+          "a2.dgi000.store"
         ],
-        "server": "direct-dns",
-        "rewrite_ttl": 20
+        "server": "dns-direct"
       },
       {
-        "domain": "www.google.com",
-        "server": "Internet-dns",
+        "domain": "whatismyipaddress.com",
+        "server": "dns-remote",
         "rewrite_ttl": 3000
       },
       {
-        "network": "udp",
-        "port": 443,
-        "server": "block-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "clash_mode": "Save Battery",
-        "server": "Internet-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "domain_regex": [
-          ".*\\.ir$",
-          ".*\\.xn--mgba3a4f16a$"
+        "rule_set": [
+          "geoip-ir",
+          "geosite-ir"
         ],
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "rule_set": "geosite-ir",
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "Internet",
-        "server": "Internet-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "Best Latency",
-        "server": "Best Latency-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "direct",
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "any",
-        "server": "direct-dns",
-        "rewrite_ttl": 20
+        "server": "dns-direct"
       }
     ],
-    "final": "Internet-dns",
-    "fakeip": {
-      "enabled": true,
-      "inet4_range": "198.18.0.0/15",
-      "inet6_range": "fc00::/18"
+    "final": "dns-remote",
+    "static_ips": {
+      "sky.rethinkdns.com": [
+        "104.17.147.22",
+        "104.17.148.22",
+        "188.114.97.3",
+        "188.114.96.3",
+        "2a06:98c1:3121::3",
+        "2a06:98c1:3120::3"
+      ]
     },
-    "strategy": "prefer_ipv4",
-    "disable_expire": true
+    "independent_cache": true
   },
   "inbounds": [
     {
       "type": "tun",
       "tag": "tun-in",
-      "interface_name": "tun0",
       "mtu": 9000,
-      "inet4_address": "172.19.0.1/30",
+      "inet4_address": "172.19.0.1/28",
       "inet6_address": "fdfe:dcba:9876::1/126",
       "auto_route": true,
       "strict_route": true,
-      "stack": "mixed",
+      "endpoint_independent_nat": true,
+      "stack": "gvisor",
       "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
+      "sniff_override_destination": true
     },
     {
       "type": "mixed",
       "tag": "mixed-in",
-      "listen": "0.0.0.0",
-      "listen_port": 2080,
+      "listen": "127.0.0.1",
+      "listen_port": 12334,
       "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
+      "sniff_override_destination": true
     },
     {
       "type": "direct",
       "tag": "dns-in",
-      "listen": "0.0.0.0",
-      "listen_port": 6450,
-      "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4",
-      "override_address": "8.8.8.8",
-      "override_port": 53
+      "listen": "127.0.0.1",
+      "listen_port": 16450
     }
   ],
   "outbounds": [
-        {
-            "type": "direct",
-            "tag": "direct"
-        },
-        {
-            "type": "direct",
-            "tag": "fragment",
-            "tcp_fast_open": false,
-            "tls_fragment": {
-                "enabled": true,
-                "size": "20-100",
-                "sleep": "0-2"
-            }
-        },
     {
       "type": "selector",
-      "tag": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام",
+      "tag": "select",
       "outbounds": [
-        "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
+        "auto",
         "🇦🇺 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
         "🇨🇭 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
         "🇨🇭🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
@@ -175,11 +122,12 @@
         "🇵🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
         "🇱🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
         "🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆"
-      ]
+      ],
+      "default": "auto"
     },
     {
       "type": "urltest",
-      "tag": "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
+      "tag": "auto",
       "outbounds": [
         "🇦🇺 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
         "🇨🇭 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
@@ -202,10 +150,10 @@
         "🇱🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
         "🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆"
       ],
-      "url": "http://www.google.com/generate_204",
-      "interval": "3m0s",
+      "url": "https://whatismyipaddress.com/",
+      "interval": "5m0s",
       "tolerance": 1,
-      "idle_timeout": "9m0s"
+      "idle_timeout": "15m0s"
     },
     {
       "type": "hysteria2",
@@ -294,8 +242,7 @@
         }
       }
     },
-
-{
+    {
       "type": "http",
       "tag": "🇨🇦@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
       "server": "66.111.61.161",
@@ -585,20 +532,40 @@
       }
     },
     {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
       "type": "direct",
       "tag": "direct"
     },
     {
-      "type": "block",
-      "tag": "block"
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "50-100",
+        "sleep": "10-20"
+      }
     },
     {
-      "type": "dns",
-      "tag": "dns-out"
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
     }
   ],
   "route": {
     "rules": [
+      {
+        "rule_set": [
+          "geoip-ir",
+          "geosite-ir"
+        ],
+        "outbound": "direct"
+      },
       {
         "inbound": "dns-in",
         "outbound": "dns-out"
@@ -608,43 +575,21 @@
         "outbound": "dns-out"
       },
       {
-        "network": "udp",
-        "port": 443,
-        "outbound": "block"
-      },
-      {
-        "clash_mode": "Save Battery",
-        "outbound": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام"
-      },
-      {
-        "protocol": "stun",
-        "outbound": "block"
-      },
-      {
-        "ip_cidr": [
-          "10.10.34.34",
-          "10.10.34.35",
-          "10.10.34.36"
-        ],
-        "outbound": "block"
-      },
-      {
-        "ip_is_private": true,
+        "clash_mode": "Direct",
         "outbound": "direct"
       },
       {
-        "domain_regex": [
-          ".*\\.ir$",
-          ".*\\.xn--mgba3a4f16a$"
-        ],
-        "outbound": "direct"
+        "clash_mode": "Global",
+        "outbound": "select"
       },
       {
-        "rule_set": [
-          "geoip-ir",
-          "geosite-ir"
+        "process_name": [
+          "Hiddify",
+          "Hiddify.exe",
+          "HiddifyCli",
+          "HiddifyCli.exe"
         ],
-        "outbound": "direct"
+        "outbound": "bypass"
       }
     ],
     "rule_set": [
@@ -652,34 +597,29 @@
         "type": "remote",
         "tag": "geoip-ir",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
-        "download_detour": "direct",
-        "update_interval": "168h0m0s"
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-ir.srs",
+        "update_interval": "120h0m0s"
       },
       {
         "type": "remote",
         "tag": "geosite-ir",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
-        "download_detour": "direct",
-        "update_interval": "168h0m0s"
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-ir.srs",
+        "update_interval": "120h0m0s"
       }
     ],
-    "final": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام",
+    "final": "select",
     "auto_detect_interface": true,
     "override_android_vpn": true
   },
   "experimental": {
     "cache_file": {
       "enabled": true,
-      "path": "cache.db",
-      "cache_id": "sinabigo",
-      "store_fakeip": true,
-      "store_rdrc": true,
-      "rdrc_timeout": "168h0m0s"
+      "path": "clash.db"
     },
     "clash_api": {
-      "default_mode": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈کانال+تلگرام"
+      "external_controller": "127.0.0.1:16756",
+      "secret": "MW7V1pZvC60eHhN0"
     }
   }
 }
