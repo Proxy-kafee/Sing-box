@@ -158,6 +158,10 @@
     {
       "type": "hysteria2",
       "tag": "🇦🇺 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "tls_fragment": {
+      "enabled": true,
+      "size": "20-40",
+      "sleep": "4-8"
       "domain_strategy": "prefer_ipv4",
       "server": "a3.dgi000.store",
       "server_port": 443,
