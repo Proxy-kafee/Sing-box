@@ -1,650 +1,976 @@
 {
-  "log": {
-    "disabled": true,
-    "level": "panic"
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "Internet-dns",
-        "address": "tcp://94.140.14.14",
-        "strategy": "prefer_ipv4",
-        "detour": "Internet"
-      },
-      {
-        "tag": "Best Latency-dns",
-        "address": "fakeip",
-        "strategy": "prefer_ipv4",
-        "detour": "Best Latency"
-      },
-      {
-        "tag": "direct-dns",
-        "address": "udp://8.8.8.8",
-        "strategy": "prefer_ipv4",
-        "detour": "direct"
-      },
-      {
-        "tag": "block-dns",
-        "address": "rcode://success"
-      }
-    ],
-    "rules": [
-      {
-        "domain_suffix": [
-          "a1.dgi000.store",
-          "a2.dgi000.store",
-          "a3.dgi000.store",
-          "marilynmanson.link",
-          "gitlab.com"
-        ],
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "domain": "www.google.com",
-        "server": "Internet-dns",
-        "rewrite_ttl": 3000
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "server": "block-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "clash_mode": "Save Battery",
-        "server": "Internet-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "domain_regex": [
-          ".*\\.ir$",
-          ".*\\.xn--mgba3a4f16a$"
-        ],
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "rule_set": "geosite-ir",
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "Internet",
-        "server": "Internet-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "Best Latency",
-        "server": "Best Latency-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "direct",
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "any",
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      }
-    ],
-    "final": "Internet-dns",
-    "fakeip": {
-      "enabled": true,
-      "inet4_range": "198.18.0.0/15",
-      "inet6_range": "fc00::/18"
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
     },
-    "strategy": "prefer_ipv4",
-    "disable_expire": true
-  },
-  "inbounds": [
-    {
-      "type": "tun",
-      "tag": "tun-in",
-      "interface_name": "tun0",
-      "mtu": 9000,
-      "inet4_address": "172.19.0.1/30",
-      "inet6_address": "fdfe:dcba:9876::1/126",
-      "auto_route": true,
-      "strict_route": true,
-      "stack": "mixed",
-      "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
-    },
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "listen": "0.0.0.0",
-      "listen_port": 2080,
-      "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4"
-    },
-    {
-      "type": "direct",
-      "tag": "dns-in",
-      "listen": "0.0.0.0",
-      "listen_port": 6450,
-      "sniff": true,
-      "sniff_override_destination": true,
-      "domain_strategy": "prefer_ipv4",
-      "override_address": "8.8.8.8",
-      "override_port": 53
-    }
-  ],
-  "outbounds": [
-    {
-      "type": "selector",
-      "tag": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام",
-      "outbounds": [
-        "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
-        "🇵🇱 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇦@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇾@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇬🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇧🇴@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇭🇳@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇸🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇩🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇺🇿@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇦🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇪🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇭🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇧🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇸🇬@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇵🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇱🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆"
-      ]
-    },
-    {
-      "type": "urltest",
-      "tag": "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
-      "outbounds": [
-        "🇵🇱 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇦@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇾@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇬🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇧🇴@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇭🇳@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇸🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇩🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇺🇿@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇦🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇪🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇭🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇧🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇸🇬@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇵🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇱🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆"
-      ],
-      "url": "http://www.google.com/generate_204",
-      "interval": "3m0s",
-      "tolerance": 1,
-      "idle_timeout": "9m0s"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "217.30.10.18",
-      "server_port": 9041,
-      "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "domain_strategy": "prefer_ipv4",
-      "server": "a1.dgi000.store",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "@azadi_az_inja_migzare"
-      },
-      "password": "@azadi_az_inja_migzare",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1.dgi000.store",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AEr+DQBGAAAgACBoVfT5U4PSPvvVSpNi79VLjF+rECqnsFGmNm1236RcNQAIAAEA",
-            "AQABAAMAE2F6YWRpMi5rcGxsNDkuc3BhY2UAAA==",
-            "-----END ECH CONFIGS-----"
-          ]
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule"
         }
-      }
     },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "domain_strategy": "prefer_ipv4",
-      "server": "a2.dgi000.store",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "@azadi_az_inja_migzare"
-      },
-      "password": "@azadi_az_inja_migzare",
-      "tls": {
-        "enabled": true,
-        "server_name": "a2.dgi000.store",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AEr+DQBGAAAgACBoVfT5U4PSPvvVSpNi79VLjF+rECqnsFGmNm1236RcNQAIAAEA",
-            "AQABAAMAE2F6YWRpMi5rcGxsNDkuc3BhY2UAAA==",
-            "-----END ECH CONFIGS-----"
-          ]
+    "dns": {
+        "servers": [
+            {
+                "address": "tcp:\/\/94.140.14.140",
+                "address_resolver": "dns-direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "tcp:\/\/94.140.14.140",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode:\/\/success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": "direct",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            }
+        ],
+        "reverse_mapping": true,
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "domain_strategy": "",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1\/30",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
         }
-      }
-    },
+    ],
+
+    "outbounds": [
+        {
+            "tag": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال تلگرام",
+            "type": "selector",
+            "default": "👉🏻 @ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎 👈🏻",
+            "outbounds": [
+                "👉🏻 @ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎 👈🏻",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇨🇦",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇨🇾",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇬🇪",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇧🇴",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇭🇳",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇸🇪",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇩🇪",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇺🇿",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇨🇭",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇦🇺",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇪🇸",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇭🇺",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇧🇪",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇸🇬",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇵🇭",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇱🇧",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇺🇸",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇫🇷",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇷🇺",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇦🇪"
+            ]
+        },
+        {
+            "tag": "👉🏻 @ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎 👈🏻",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇦",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇨🇾",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇬🇪",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇧🇴",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇭🇳",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇪",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇩🇪",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇺🇿",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇭",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇺",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇪🇸",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇭🇺",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇪",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇬",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇵🇭",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇱🇧",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇺🇸",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇫🇷",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇾",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇪"
+                
+
+            ]
+        },
 
 {
-      "type": "http",
-      "tag": "🇨🇦@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "66.111.61.161",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇨🇾@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "195.47.194.65",
-      "server_port": 89,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇬🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "81.17.123.114",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇧🇴@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "45.134.189.1",
-      "server_port": 89,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇭🇳@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "193.9.32.3",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇸🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "31.13.191.155",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇩🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "194.233.96.24",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇺🇿@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "212.97.64.1",
-      "server_port": 89,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "89.37.173.162",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇦🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "116.90.72.75",
-      "server_port": 89,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇪🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "185.214.97.110",
-      "server_port": 89,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇭🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "217.138.192.43",
-      "server_port": 89,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇧🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "37.120.143.3",
-      "server_port": 90,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇸🇬@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "149.34.253.206",
-      "server_port": 90,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇵🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "212.97.71.1",
-      "server_port": 90,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇱🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "212.97.70.3",
-      "server_port": 89,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "66.111.61.233",
-      "server_port": 90,
-      "username": "E93HGGpA8jQPvnehhrA7DwoD",
-      "password": "C8dAN1ccgBNyBqG4WCFynQXH",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "marilynmanson.link"
-      }
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "block",
-      "tag": "block"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    }
-  ],
-  "route": {
-    "rules": [
-      {
-        "inbound": "dns-in",
-        "outbound": "dns-out"
-      },
-      {
-        "port": 53,
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "outbound": "block"
-      },
-      {
-        "clash_mode": "Save Battery",
-        "outbound": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام"
-      },
-      {
-        "protocol": "stun",
-        "outbound": "block"
-      },
-      {
-        "ip_cidr": [
-          "10.10.34.34",
-          "10.10.34.35",
-          "10.10.34.36"
-        ],
-        "outbound": "block"
-      },
-      {
-        "ip_is_private": true,
-        "outbound": "direct"
-      },
-      {
-        "domain_regex": [
-          ".*\\.ir$",
-          ".*\\.xn--mgba3a4f16a$"
-        ],
-        "outbound": "direct"
-      },
-      {
-        "rule_set": [
-          "geoip-ir",
-          "geosite-ir"
-        ],
-        "outbound": "direct"
-      }
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇨🇦",
+            "type": "urltest",
+            "outbounds": [
+               "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇦"
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇨🇾",
+            "type": "urltest",
+            "outbounds": [
+               "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇨🇾"
+
+
+            ]
+        },
+
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇬🇪",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇬🇪"
+
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇧🇴",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇧🇴"
+
+
+            ]
+        },
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇭🇳",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇭🇳"
+ 
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇸🇪",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇪"
+
+              
+            ]
+        },
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇩🇪",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇩🇪",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇩🇪🇩🇪"
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇺🇿",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇺🇿"
+
+
+            ]
+        },
+
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇨🇭",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇭"
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇦🇺",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇺"
+
+
+            ]
+        },
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇪🇸",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇪🇸"
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇭🇺",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇭🇺"
+
+
+            ]
+        },
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇧🇪",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇪"
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇸🇬",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇬"
+
+
+            ]
+        },
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇵🇭",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇵🇭"
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇱🇧",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇱🇧"
+
+
+            ]
+        },
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇺🇸",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇺🇸"
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇫🇷",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇫🇷"
+
+
+            ]
+        },
+{
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆 🇷🇺",
+            "type": "urltest",
+            "outbounds": [
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇾",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇷🇺"
+
+
+            ]
+        },
+{
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇦🇪",
+            "type": "urltest",
+            "outbounds": [
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇪"
+
+
+            ]
+        },
+
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "66.111.61.161",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇦",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+            "path": "",
+            "server": "195.47.194.65",
+            "server_port": 89,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇨🇾",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
+        },
+
+
+       
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "81.17.123.114",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇬🇪",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+        
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "45.134.189.1",
+            "server_port": 89,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇧🇴",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+               "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "193.9.32.3",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇭🇳",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+        
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "[::ffff:b9f7:470b]",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇪",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+       
+
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "194.233.96.24",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇩🇪",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "3v8o0zma",
+            "path": "",
+            "server": "[::ffff:9522:fc50]",
+            "server_port": 10799,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇩🇪🇩🇪",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
+
+                "server_name": "www.theverge.com"
+            },
+            "type": "http",
+            "username": "purevpn0s1444337"
+        },
+
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "212.97.64.1",
+            "server_port": 89,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇺🇿",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+        
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "[::ffff:b907:2260]",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇭",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+        
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "[::ffff:676b:c583]",
+            "server_port": 89,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇺",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "F1P4EJa45WxJYNRQKFqVc936",
+            "path": "",
+            "server": "185.214.97.110",
+            "server_port": 89,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇪🇸",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "1VmfJzieuyTfAMnWZVKNKZbR"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+            "path": "",
+            "server": "::ffff:d5e8:5745",
+            "server_port": 89,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇭🇺",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "3v8o0zma",
+            "path": "",
+            "server": "[::ffff:9a2f:1b73]",
+            "server_port": 10799,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇪",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
+
+                "server_name": "accuweather.com"
+            },
+            "type": "http",
+            "username": "purevpn0s1444337"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+            "path": "",
+            "server": "[::ffff:c0a6:f68c]",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇬",
+             "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
+        },
+
+        {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+            "path": "",
+            "server": "[::ffff:d461:4701]",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇵🇭",
+             "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+            "path": "",
+            "server": "[::ffff:d461:4603]",
+            "server_port": 89,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇱🇧",
+             "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "yLoEDZiuRqdg8HqQfaEMXhzn"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "C8dAN1ccgBNyBqG4WCFynQXH",
+            "path": "",
+            "server": "[::ffff:426f:3de9]",
+            "server_port": 90,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇺🇸",
+             "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "E93HGGpA8jQPvnehhrA7DwoD"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "3v8o0zma",
+            "path": "",
+            "server": "[::ffff:2513:d952]",
+            "server_port": 10799,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇫🇷",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
+
+                "server_name": "accuweather.com"
+            },
+            "type": "http",
+            "username": "purevpn0s1444337"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "3v8o0zma",
+            "path": "",
+            "server": "[::ffff:c26e:7263]",
+            "server_port": 10799,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇾",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
+
+                "server_name": "accuweather.com"
+            },
+            "type": "http",
+            "username": "purevpn0s1444337"
+        },
+
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "Olivas12353",
+            "path": "",
+            "server": "[::ffff:b9f7:4542]",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇷🇺",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "gitlab.com"
+            },
+            "type": "http",
+            "username": "iolivas1014@yahoo.com"
+        },
+                {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "3v8o0zma",
+            "path": "",
+            "server": "[::ffff:b96c:6b6e]",
+            "server_port": 10799,
+            "domain_strategy": "",
+            "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇪",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
+
+                "server_name": "www.theverge.com"
+            },
+            "type": "http",
+            "username": "purevpn0s1444337"
+        }
     ],
-    "rule_set": [
-      {
-        "type": "remote",
-        "tag": "geoip-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
-        "download_detour": "direct",
-        "update_interval": "168h0m0s"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
-        "download_detour": "direct",
-        "update_interval": "168h0m0s"
-      }
-    ],
-    "final": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام",
-    "auto_detect_interface": true,
-    "override_android_vpn": true
-  },
-  "experimental": {
-    "cache_file": {
-      "enabled": true,
-      "path": "cache.db",
-      "cache_id": "sinabigo",
-      "store_fakeip": true,
-      "store_rdrc": true,
-      "rdrc_timeout": "168h0m0s"
-    },
-    "clash_api": {
-      "default_mode": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈کانال+تلگرام"
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال تلگرام",
+        "geoip": {
+            "download_url": "https:\/\/github.com\/chocolate4u\/Iran-sing-box-rules\/releases\/latest\/download\/geoip.db",
+            "download_detour": "direct"
+        },
+        "geosite": {
+            "download_url": "https:\/\/github.com\/chocolate4u\/Iran-sing-box-rules\/releases\/latest\/download\/geosite.db",
+            "download_detour": "direct"
+        },
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "inbound": [
+                    "dns-in"
+                ],
+                "outbound": "dns-out"
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geoip": [
+                    "ir",
+                    "private",
+                    "arvancloud"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "geosite:category-ads-all",
+                    "malware",
+                    "phishing",
+                    "cryptominers"
+                ],
+                "outbound": "block"
+            },
+            {
+                "geosite": [
+                    "other"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geoip": [
+                    "malware",
+                    "phishing"
+                ],
+                "outbound": "block"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ]
+            }
+        ]
     }
-  }
 }
