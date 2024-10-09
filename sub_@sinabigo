@@ -9,13 +9,13 @@
         "tag": "Internet-dns",
         "address": "tcp://94.140.14.14",
         "strategy": "prefer_ipv4",
-        "detour": "Internet"
+        "detour": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام"
       },
       {
         "tag": "Best Latency-dns",
         "address": "fakeip",
         "strategy": "prefer_ipv4",
-        "detour": "Best Latency"
+        "detour": "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎"
       },
       {
         "tag": "direct-dns",
@@ -31,11 +31,9 @@
     "rules": [
       {
         "domain_suffix": [
-          "a1.dgi000.store",
+          "h2.88981401.xyz",
           "a2.dgi000.store",
-          "a3.dgi000.store",
-          "marilynmanson.link",
-          "gitlab.com"
+          "a3.dgi000.store"
         ],
         "server": "direct-dns",
         "rewrite_ttl": 20
@@ -52,7 +50,7 @@
         "rewrite_ttl": 20
       },
       {
-        "clash_mode": "Save Battery",
+        "clash_mode": " بیاد اسرا پناهی  👧🏻",
         "server": "Internet-dns",
         "rewrite_ttl": 20
       },
@@ -70,12 +68,12 @@
         "rewrite_ttl": 20
       },
       {
-        "outbound": "Internet",
+        "outbound": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام",
         "server": "Internet-dns",
         "rewrite_ttl": 20
       },
       {
-        "outbound": "Best Latency",
+        "outbound": "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
         "server": "Best Latency-dns",
         "rewrite_ttl": 20
       },
@@ -141,412 +139,541 @@
       "tag": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام",
       "outbounds": [
         "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
-        "🇵🇱 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇦@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇾@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇬🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇧🇴@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇭🇳@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇸🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇩🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇺🇿@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇦🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇪🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇭🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇧🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇸🇬@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇵🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇱🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆"
+        "🇺🇸 آمریکا یک  @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان یک @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند یک @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا چهار @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان چهار@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند چهار @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا پنج @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان پنج@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند پنج@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "پشتیبانی : @SiNABiGO  🔧",
+        "SiNABiGO = کانال تلگرام ❤️",
+        "SiNABiGO = مارو دنبال کنید "
+
       ]
     },
     {
       "type": "urltest",
       "tag": "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
       "outbounds": [
-        "🇵🇱 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇦@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇾@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇬🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇧🇴@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇭🇳@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇸🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇩🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇺🇿@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇦🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇪🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇭🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇧🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇸🇬@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇵🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇱🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-        "🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆"
+        "🇺🇸 آمریکا یک  @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان یک @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند یک @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا چهار @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان چهار@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند چهار @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا پنج @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان پنج@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند پنج@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇩🇪 آلمان شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇫🇮 فنلاند شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "🇺🇸 آمریکا شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+        "پشتیبانی : @SiNABiGO  🔧",
+        "SiNABiGO = کانال تلگرام ❤️",
+        "SiNABiGO = مارو دنبال کنید "
+
       ],
       "url": "http://www.google.com/generate_204",
       "interval": "3m0s",
       "tolerance": 1,
       "idle_timeout": "9m0s"
     },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈🏻کانال تلگرام",
-      "server": "217.30.10.18",
-      "server_port": 9041,
-      "method": "aes-256-cfb",
-      "password": "U6qnYRhfyDmn8sgn"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "domain_strategy": "prefer_ipv4",
-      "server": "a1.dgi000.store",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "@azadi_az_inja_migzare"
-      },
-      "password": "@azadi_az_inja_migzare",
-      "tls": {
-        "enabled": true,
-        "server_name": "a1.dgi000.store",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AEr+DQBGAAAgACBoVfT5U4PSPvvVSpNi79VLjF+rECqnsFGmNm1236RcNQAIAAEA",
-            "AQABAAMAE2F6YWRpMi5rcGxsNDkuc3BhY2UAAA==",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "domain_strategy": "prefer_ipv4",
-      "server": "a2.dgi000.store",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "@azadi_az_inja_migzare"
-      },
-      "password": "@azadi_az_inja_migzare",
-      "tls": {
-        "enabled": true,
-        "server_name": "a2.dgi000.store",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AEr+DQBGAAAgACBoVfT5U4PSPvvVSpNi79VLjF+rECqnsFGmNm1236RcNQAIAAEA",
-            "AQABAAMAE2F6YWRpMi5rcGxsNDkuc3BhY2UAAA==",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
-      }
-    },
 
 {
-      "type": "http",
-      "tag": "🇨🇦@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "66.111.61.161",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇺🇸 آمریکا یک  @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2086,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "america1.httpupgrademowji.bloG.",
+        "path": "/ApaRat.com"
       }
     },
     {
-      "type": "http",
-      "tag": "🇨🇾@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "195.47.194.65",
-      "server_port": 89,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇩🇪 آلمان یک @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2086,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "germaAN1.httpupgrademowji.bloG.",
+        "path": "/ApaRat.com"
       }
     },
     {
-      "type": "http",
-      "tag": "🇬🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "81.17.123.114",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇫🇮 فنلاند یک @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2086,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "fiNland1.httpupgrademowji.bloG.",
+        "path": "/ApaRat.com"
       }
     },
     {
-      "type": "http",
-      "tag": "🇧🇴@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "45.134.189.1",
-      "server_port": 89,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇺🇸 آمریکا دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2082,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "panel.SEYYEDmtmodidandansax.bloG.",
+        "path": "/FarsRoid.COM.FtP.debIan.orG.wordpress.orG"
       }
     },
     {
-      "type": "http",
-      "tag": "🇭🇳@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "193.9.32.3",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇩🇪 آلمان دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2082,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "panel3.SEYYEDmtmodidandansax.bloG.",
+        "path": "/FarsRoid.COM.FtP.debIan.orG.wordpress.orG"
       }
     },
     {
-      "type": "http",
-      "tag": "🇸🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "31.13.191.155",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇫🇮 فنلاند دو @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2082,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "panel2.SEYYEDmtmodidandansax.bloG.",
+        "path": "/FarsRoid.COM.FtP.debIan.orG.wordpress.orG",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15"
+        }
       }
     },
     {
-      "type": "http",
-      "tag": "🇩🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "194.233.96.24",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇺🇸 آمریکا سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 8080,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "panel.SEYYEDmtmodidandansax.bloG.",
+        "path": "/seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmtxmplus"
       }
     },
     {
-      "type": "http",
-      "tag": "🇺🇿@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "212.97.64.1",
-      "server_port": 89,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇩🇪 آلمان سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 8080,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "panel3.SEYYEDmtmodidandansax.bloG.",
+        "path": "/seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmtxmplus"
       }
     },
     {
-      "type": "http",
-      "tag": "🇨🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "89.37.173.162",
-      "server_port": 90,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vless",
+      "tag": "🇫🇮 فنلاند سه @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 8080,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "httpupgrade",
+        "host": "panel2.SEYYEDmtmodidandansax.bloG.",
+        "path": "/seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmt-seyyedmtxmplus"
       }
     },
     {
-      "type": "http",
-      "tag": "🇦🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "116.90.72.75",
-      "server_port": 89,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vmess",
+      "tag": "🇺🇸 آمریکا چهار @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2095,
+      "uuid": "777cde00-0656-4629-b565-3a74dea4b1a2",
+      "security": "",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "ws",
+        "path": "/aVa-pC.coM.ZoomiT.iR",
+        "headers": {
+          "Host": "panel.SEYYEDmtmodidandansax.bloG."
+        },
+        "max_early_data": 1024,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "http",
-      "tag": "🇪🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "185.214.97.110",
-      "server_port": 89,
-      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
-      "password": "F1P4EJa45WxJYNRQKFqVc936",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vmess",
+      "tag": "🇩🇪 آلمان چهار@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2095,
+      "uuid": "777cde00-0656-4629-b565-3a74dea4b1a2",
+      "security": "",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "ws",
+        "path": "/aVa-pC.coM.ZoomiT.iR",
+        "headers": {
+          "Host": "panel3.SEYYEDmtmodidandansax.bloG."
+        },
+        "max_early_data": 1024,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "http",
-      "tag": "🇭🇺@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "217.138.192.43",
-      "server_port": 89,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
-      "tls": {
-        "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+      "type": "vmess",
+      "tag": "🇫🇮 فنلاند چهار @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "www.speedtest.net",
+      "server_port": 2095,
+      "uuid": "777cde00-0656-4629-b565-3a74dea4b1a2",
+      "security": "",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "transport": {
+        "type": "ws",
+        "path": "/aVa-pC.coM.ZoomiT.iR",
+        "headers": {
+          "Host": "panel2.SEYYEDmtmodidandansax.bloG."
+        },
+        "max_early_data": 1024,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
-      "type": "http",
-      "tag": "🇧🇪@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "37.120.143.3",
-      "server_port": 90,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "type": "vless",
+      "tag": "🇺🇸 آمریکا پنج @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "panel.seyyedmtmodidandansax.blog",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
       "tls": {
         "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+        "server_name": "dash.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       }
     },
     {
-      "type": "http",
-      "tag": "🇸🇬@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "149.34.253.206",
-      "server_port": 90,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "type": "vless",
+      "tag": "🇩🇪 آلمان پنج@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "panel3.seyyedmtmodidandansax.blog",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
       "tls": {
         "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+        "server_name": "wordpress.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       }
     },
     {
-      "type": "http",
-      "tag": "🇵🇭@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "212.97.71.1",
-      "server_port": 90,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "type": "vless",
+      "tag": "🇫🇮 فنلاند پنج@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "panel2.seyyedmtmodidandansax.blog",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
       "tls": {
         "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+        "server_name": "sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       }
     },
     {
-      "type": "http",
-      "tag": "🇱🇧@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "212.97.70.3",
-      "server_port": 89,
-      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
-      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "type": "vless",
+      "tag": "🇩🇪 آلمان شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "2a01:4f8:c013:4d04::1",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
       "tls": {
         "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+        "server_name": "miro.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       }
     },
     {
-      "type": "http",
-      "tag": "🇺🇸@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
-      "server": "66.111.61.233",
-      "server_port": 90,
-      "username": "E93HGGpA8jQPvnehhrA7DwoD",
-      "password": "C8dAN1ccgBNyBqG4WCFynQXH",
+      "type": "vless",
+      "tag": "🇫🇮 فنلاند شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "2a01:4f9:c012:4208::1",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
       "tls": {
         "enabled": true,
-        "server_name": "gitlab.com",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
+        "server_name": "mediaworld.it",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
       },
-      "headers": {
-        "Host": "marilynmanson.link"
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 آمریکا شش @𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆",
+      "server": "2a01:4ff:f0:42f9::1",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "tls": {
+        "enabled": true,
+        "server_name": "sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
+      },
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "پشتیبانی : @SiNABiGO  🔧",
+      "server": "Telegram : @seyyedmt",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "tls": {
+        "enabled": true,
+        "server_name": "wheel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
+      },
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "SiNABiGO = کانال تلگرام ❤️",
+      "server": "IRAN BALESTIC ON TOP🚀",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "tls": {
+        "enabled": true,
+        "server_name": "datacenterknowledge.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
+      },
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "SiNABiGO = مارو دنبال کنید ",
+      "server": "IRAN BALESTIC ON TOP🚀",
+      "server_port": 2052,
+      "uuid": "117ac104-cd22-4e88-9353-e3118b824034",
+      "tls": {
+        "enabled": true,
+        "server_name": "sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
+      },
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2052vless",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       }
     },
     {
@@ -578,7 +705,7 @@
         "outbound": "block"
       },
       {
-        "clash_mode": "Save Battery",
+        "clash_mode": " بیاد اسرا پناهی  👧🏻",
         "outbound": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام"
       },
       {
@@ -644,7 +771,7 @@
       "rdrc_timeout": "168h0m0s"
     },
     "clash_api": {
-      "default_mode": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊👈کانال+تلگرام"
+      "default_mode": "@𝐒𝐢𝐍𝐀𝐁𝐢𝐆𝐎 👈🏻کانال تلگرام"
     }
   }
 }
