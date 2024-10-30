@@ -50,7 +50,7 @@
         "rewrite_ttl": 20
       },
       {
-        "clash_mode": "مافیایی میام با کراوات 👔",
+        "clash_mode": "بیاد خدانور لجه ای  🚶🏻",
         "server": "Internet-dns",
         "rewrite_ttl": 20
       },
@@ -139,132 +139,99 @@
       "tag": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام",
       "outbounds": [
         "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
-
-        "r1 reality XTLS direct vless § 443 2",
-        "c1 tls_h2 WS CDN vless § 443 4",
-        "c1 tls_h2 WS CDN trojan § 443 4",
-        "c1 tls_h2 WS CDN vmess § 443 4",
-        "c1 tls_h2 httpupgrade CDN vless § 443 4",
-        "c1 tls_h2 httpupgrade CDN vmess § 443 4",
-        "c1 tls_h2 grpc CDN vless § 443 4",
-        "c1 tls_h2 grpc CDN trojan § 443 4",
-        "c1 tls_h2 grpc CDN vmess § 443 4",
-        "c1 tls WS CDN vless § 443 4",
-        "c1 tls WS CDN trojan § 443 4",
-        "c1 tls WS CDN vmess § 443 4",
-        "c1 tls httpupgrade CDN vless § 443 4",
-        "c1 tls httpupgrade CDN vmess § 443 4",
-        "c1 tls grpc CDN vless § 443 4",
-        "c1 tls grpc CDN trojan § 443 4",
-        "c1 tls grpc CDN vmess § 443 4",
-        "c1 http WS CDN vmess § 80 4",
-        "c1 http httpupgrade CDN vmess § 80 4",
-        "c2 tls_h2 WS CDN vless § 443 5",
-        "c2 tls_h2 WS CDN trojan § 443 5",
-        "c2 tls_h2 WS CDN vmess § 443 5",
-        "c2 tls_h2 httpupgrade CDN vless § 443 5",
-        "c2 tls_h2 httpupgrade CDN vmess § 443 5",
-        "c2 tls_h2 grpc CDN vless § 443 5",
-        "c2 tls_h2 grpc CDN trojan § 443 5",
-        "c2 tls_h2 grpc CDN vmess § 443 5",
-        "c2 tls WS CDN vless § 443 5",
-        "c2 tls WS CDN trojan § 443 5",
-        "c2 tls WS CDN vmess § 443 5",
-        "c2 tls httpupgrade CDN vless § 443 5",
-        "c2 tls httpupgrade CDN vmess § 443 5",
-        "c2 tls grpc CDN vless § 443 5",
-        "c2 tls grpc CDN trojan § 443 5",
-        "c2 tls grpc CDN vmess § 443 5",
-        "c2 http WS CDN vmess § 80 5",
-        "c2 http httpupgrade CDN vmess § 80 5",
-        "c3 tls_h2 WS CDN vless § 443 6",
-        "c3 tls_h2 WS CDN trojan § 443 6",
-        "c3 tls_h2 WS CDN vmess § 443 6",
-        "c3 tls_h2 httpupgrade CDN vless § 443 6",
-        "c3 tls_h2 httpupgrade CDN vmess § 443 6",
-        "c3 tls_h2 grpc CDN vless § 443 6",
-        "c3 tls_h2 grpc CDN trojan § 443 6",
-        "c3 tls_h2 grpc CDN vmess § 443 6",
-        "c3 tls WS CDN vless § 443 6",
-        "c3 tls WS CDN trojan § 443 6",
-        "c3 tls WS CDN vmess § 443 6",
-        "c3 tls httpupgrade CDN vless § 443 6",
-        "c3 tls httpupgrade CDN vmess § 443 6",
-        "c3 tls grpc CDN vless § 443 6",
-        "c3 tls grpc CDN trojan § 443 6",
-        "c3 tls grpc CDN vmess § 443 6",
-        "c3 http WS CDN vmess § 80 6",
-        "c3 http httpupgrade CDN vmess § 80 6",
-        "r2 reality grpc direct vless § 443 7",
-        "r3 reality XTLS direct vless § 443 8",
-        "r4 reality XTLS direct vless § 443 9"
-      ],
-      "default": "auto"
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇭",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇪",
+                "1@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "2@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "3@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "4@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "5@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "6@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "7@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "8@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "9@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "10@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "11@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "12@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "13@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "14@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "15@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "16@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "17@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "18@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "19@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "20@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "21@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "22@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "23@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "24@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "1@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "2@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "3@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "4@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "5@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "6@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "7@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "8@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "9@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇺",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇪🇸",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇭🇺",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇪",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇬",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇵🇭",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇱🇧",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇺🇸"
+      ]
     },
     {
       "type": "urltest",
       "tag": "@ 𝐒 𝐢 𝐍 𝐀 𝐁 𝐢 𝐆 𝐎",
       "outbounds": [
-        "r1 reality XTLS direct vless § 443 2",
-        "c1 tls_h2 WS CDN vless § 443 4",
-        "c1 tls_h2 WS CDN trojan § 443 4",
-        "c1 tls_h2 WS CDN vmess § 443 4",
-        "c1 tls_h2 httpupgrade CDN vless § 443 4",
-        "c1 tls_h2 httpupgrade CDN vmess § 443 4",
-        "c1 tls_h2 grpc CDN vless § 443 4",
-        "c1 tls_h2 grpc CDN trojan § 443 4",
-        "c1 tls_h2 grpc CDN vmess § 443 4",
-        "c1 tls WS CDN vless § 443 4",
-        "c1 tls WS CDN trojan § 443 4",
-        "c1 tls WS CDN vmess § 443 4",
-        "c1 tls httpupgrade CDN vless § 443 4",
-        "c1 tls httpupgrade CDN vmess § 443 4",
-        "c1 tls grpc CDN vless § 443 4",
-        "c1 tls grpc CDN trojan § 443 4",
-        "c1 tls grpc CDN vmess § 443 4",
-        "c1 http WS CDN vmess § 80 4",
-        "c1 http httpupgrade CDN vmess § 80 4",
-        "c2 tls_h2 WS CDN vless § 443 5",
-        "c2 tls_h2 WS CDN trojan § 443 5",
-        "c2 tls_h2 WS CDN vmess § 443 5",
-        "c2 tls_h2 httpupgrade CDN vless § 443 5",
-        "c2 tls_h2 httpupgrade CDN vmess § 443 5",
-        "c2 tls_h2 grpc CDN vless § 443 5",
-        "c2 tls_h2 grpc CDN trojan § 443 5",
-        "c2 tls_h2 grpc CDN vmess § 443 5",
-        "c2 tls WS CDN vless § 443 5",
-        "c2 tls WS CDN trojan § 443 5",
-        "c2 tls WS CDN vmess § 443 5",
-        "c2 tls httpupgrade CDN vless § 443 5",
-        "c2 tls httpupgrade CDN vmess § 443 5",
-        "c2 tls grpc CDN vless § 443 5",
-        "c2 tls grpc CDN trojan § 443 5",
-        "c2 tls grpc CDN vmess § 443 5",
-        "c2 http WS CDN vmess § 80 5",
-        "c2 http httpupgrade CDN vmess § 80 5",
-        "c3 tls_h2 WS CDN vless § 443 6",
-        "c3 tls_h2 WS CDN trojan § 443 6",
-        "c3 tls_h2 WS CDN vmess § 443 6",
-        "c3 tls_h2 httpupgrade CDN vless § 443 6",
-        "c3 tls_h2 httpupgrade CDN vmess § 443 6",
-        "c3 tls_h2 grpc CDN vless § 443 6",
-        "c3 tls_h2 grpc CDN trojan § 443 6",
-        "c3 tls_h2 grpc CDN vmess § 443 6",
-        "c3 tls WS CDN vless § 443 6",
-        "c3 tls WS CDN trojan § 443 6",
-        "c3 tls WS CDN vmess § 443 6",
-        "c3 tls httpupgrade CDN vless § 443 6",
-        "c3 tls httpupgrade CDN vmess § 443 6",
-        "c3 tls grpc CDN vless § 443 6",
-        "c3 tls grpc CDN trojan § 443 6",
-        "c3 tls grpc CDN vmess § 443 6",
-        "c3 http WS CDN vmess § 80 6",
-        "c3 http httpupgrade CDN vmess § 80 6",
-        "r2 reality grpc direct vless § 443 7",
-        "r3 reality XTLS direct vless § 443 8",
-        "r4 reality XTLS direct vless § 443 9"
 
- 
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇭",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇪",
+                "1@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "2@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "3@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "4@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "5@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "6@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "7@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "8@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "9@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "10@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "11@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "12@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "13@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "14@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "15@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "16@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "17@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "18@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "19@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "20@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "21@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "22@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "23@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "24@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+                "1@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "2@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "3@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "4@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "5@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "6@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "7@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "8@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "9@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇺",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇪🇸",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇭🇺",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇪",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇬",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇵🇭",
+                "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇱🇧",
+                "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇺🇸"
       ],
       "url": "http://www.google.com/generate_204",
       "interval": "3m0s",
@@ -272,1361 +239,548 @@
       "idle_timeout": "9m0s"
     },
 
-    {
-      "type": "vless",
-      "tag": "r1 reality XTLS direct vless § 443 2",
-      "server": "hdfy5serverpersiad1.afsharidempire.uk",
+{
+      "type": "hysteria2",
+      "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇨🇭",
+      "domain_strategy": "prefer_ipv4",
+      "server": "all-v4.dgi000.store",
       "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "flow": "xtls-rprx-vision",
+      "obfs": {
+        "type": "salamander",
+        "password": "@azadi_az_inja_migzare"
+      },
+      "password": "@azadi_az_inja_migzare",
       "tls": {
         "enabled": true,
-        "server_name": "hdl.handle.net",
-        "alpn": "http/1.1",
-        "utls": {
+        "server_name": "all-v4.dgi000.store",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b9ZWMerbIoW9d3W7Nes-GC-AuoLRahyn4mnSlNurc14",
-          "short_id": "33"
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AEb+DQBCAAAgACAzj8BolIG68jc1kgCeQ2Fg2cDQcw5KvTycY6MwW6kMdAAIAAEA",
+            "AQABAAMAD0E0LmRnaTAwMC5zdG9yZQAA",
+            "-----END ECH CONFIGS-----"
+          ]
         }
+      }
+    },
+   {
+      "type": "vless",
+      "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇪",
+      "server": "for-real.hpcode.ir",
+      "server_port": 44441,
+      "uuid": "ec8a65ad-aafc-4095-9b8c-ea10890ca629",
+      "transport": {
+        "type": "http",
+        "host": "me.com",
+        "path": "/@JavidnamanIran/",
+        "method": "GET"
       },
       "packet_encoding": "xudp"
     },
-    {
-      "type": "vless",
-      "tag": "c1 tls_h2 WS CDN vless § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
+    
+{
+      "type": "hysteria2",
+      "tag": "1@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "30fe86c4-0db7-4a09-b1d0-b4a06f2e87ab",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/VM9JThTwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c1 tls_h2 WS CDN trojan § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/QClOez8RElKMCmwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vmess",
-      "tag": "c1 tls_h2 WS CDN vmess § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
+      "type": "hysteria2",
+      "tag": "2@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "30fe86c4-0db7-4a09-b1d0-b4a06f2e87ab",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+{
+      "type": "hysteria2",
+      "tag": "3@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "30fe86c4-0db7-4a09-b1d0-b4a06f2e87ab",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "c1 tls_h2 httpupgrade CDN vless § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
+      "type": "hysteria2",
+      "tag": "4@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "30fe86c4-0db7-4a09-b1d0-b4a06f2e87ab",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/VM9JThTKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
     },
-    {
-      "type": "vmess",
-      "tag": "c1 tls_h2 httpupgrade CDN vmess § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
+{
+      "type": "hysteria2",
+      "tag": "5@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "182422f0-32a7-45d6-a2c2-60d8b58d1b74",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "c1 tls_h2 grpc CDN vless § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
+      "type": "hysteria2",
+      "tag": "6@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "182422f0-32a7-45d6-a2c2-60d8b58d1b74",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "VM9JThTUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
     },
-    {
-      "type": "trojan",
-      "tag": "c1 tls_h2 grpc CDN trojan § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
+{
+      "type": "hysteria2",
+      "tag": "7@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "97b3a835-3d52-485e-bb0b-eb2641f31570",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "QClOez8RElKMCmUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vmess",
-      "tag": "c1 tls_h2 grpc CDN vmess § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
+      "type": "hysteria2",
+      "tag": "8@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "97b3a835-3d52-485e-bb0b-eb2641f31570",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vcDaZhsM9WvxysUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+{
+      "type": "hysteria2",
+      "tag": "9@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "759fc428-a172-49e2-b765-8abfb0e9ad47",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "c1 tls WS CDN vless § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
+      "type": "hysteria2",
+      "tag": "10@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "759fc428-a172-49e2-b765-8abfb0e9ad47",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/VM9JThTwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
     },
-    {
-      "type": "trojan",
-      "tag": "c1 tls WS CDN trojan § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
+{
+      "type": "hysteria2",
+      "tag": "11@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "759fc428-a172-49e2-b765-8abfb0e9ad47",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/QClOez8RElKMCmwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vmess",
-      "tag": "c1 tls WS CDN vmess § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
+      "type": "hysteria2",
+      "tag": "12@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "759fc428-a172-49e2-b765-8abfb0e9ad47",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+{
+      "type": "hysteria2",
+      "tag": "13@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "1ca9f4a7-5e4f-4d3c-8a27-c3b2ecdb958d",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "c1 tls httpupgrade CDN vless § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
+      "type": "hysteria2",
+      "tag": "14@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "1ca9f4a7-5e4f-4d3c-8a27-c3b2ecdb958d",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/VM9JThTKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        }
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
     },
-    {
-      "type": "vmess",
-      "tag": "c1 tls httpupgrade CDN vmess § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
+{
+      "type": "hysteria2",
+      "tag": "15@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "0ab5edc5-2416-4575-bf0b-51486d0ff428",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "c1 tls grpc CDN vless § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
+      "type": "hysteria2",
+      "tag": "16@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "0ab5edc5-2416-4575-bf0b-51486d0ff428",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "VM9JThTUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
     },
-    {
-      "type": "trojan",
-      "tag": "c1 tls grpc CDN trojan § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
+{
+      "type": "hysteria2",
+      "tag": "17@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "ebbf94e5-bf66-4de6-a4fa-454d4563cb6c",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "QClOez8RElKMCmUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vmess",
-      "tag": "c1 tls grpc CDN vmess § 443 4",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
+      "type": "hysteria2",
+      "tag": "18@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "ebbf94e5-bf66-4de6-a4fa-454d4563cb6c",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc1.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vcDaZhsM9WvxysUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+{
+      "type": "hysteria2",
+      "tag": "19@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "a872d668-1366-4e61-9442-611d2f68a7c4",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vmess",
-      "tag": "c1 http WS CDN vmess § 80 4",
-      "server": "vinted.fr",
-      "server_port": 80,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+      "type": "hysteria2",
+      "tag": "20@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "a872d668-1366-4e61-9442-611d2f68a7c4",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+{
+      "type": "hysteria2",
+      "tag": "21@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "04ee46b1-a0af-4ba0-aa02-3206f4bc6b87",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vmess",
-      "tag": "c1 http httpupgrade CDN vmess § 80 4",
-      "server": "vinted.fr",
-      "server_port": 80,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc1.afsharidempire.uk"
-        }
+      "type": "hysteria2",
+      "tag": "22@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "04ee46b1-a0af-4ba0-aa02-3206f4bc6b87",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+{
+      "type": "hysteria2",
+      "tag": "23@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "107.175.185.55",
+      "server_port": 11000,
+      "password": "47a064e7-4a2b-40c5-b4c0-cec8d3956d7b",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "c2 tls_h2 WS CDN vless § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
+      "type": "hysteria2",
+      "tag": "24@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🔵",
+      "server": "140.245.35.137",
+      "server_port": 11100,
+      "password": "47a064e7-4a2b-40c5-b4c0-cec8d3956d7b",
       "tls": {
         "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/VM9JThTwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c2 tls_h2 WS CDN trojan § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/QClOez8RElKMCmwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "server_name": "www.bing.com",
+        "insecure": true
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "c2 tls_h2 WS CDN vmess § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c2 tls_h2 httpupgrade CDN vless § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/VM9JThTKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "c2 tls_h2 httpupgrade CDN vmess § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c2 tls_h2 grpc CDN vless § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "VM9JThTUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c2 tls_h2 grpc CDN trojan § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "QClOez8RElKMCmUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c2 tls_h2 grpc CDN vmess § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vcDaZhsM9WvxysUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c2 tls WS CDN vless § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/VM9JThTwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c2 tls WS CDN trojan § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/QClOez8RElKMCmwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c2 tls WS CDN vmess § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c2 tls httpupgrade CDN vless § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/VM9JThTKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "c2 tls httpupgrade CDN vmess § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c2 tls grpc CDN vless § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "VM9JThTUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c2 tls grpc CDN trojan § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "QClOez8RElKMCmUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c2 tls grpc CDN vmess § 443 5",
-      "server": "vinted.fr",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc2.afsharidempire.uk",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vcDaZhsM9WvxysUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c2 http WS CDN vmess § 80 5",
-      "server": "vinted.fr",
-      "server_port": 80,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c2 http httpupgrade CDN vmess § 80 5",
-      "server": "vinted.fr",
-      "server_port": 80,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc2.afsharidempire.uk"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c3 tls_h2 WS CDN vless § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/VM9JThTwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c3 tls_h2 WS CDN trojan § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/QClOez8RElKMCmwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c3 tls_h2 WS CDN vmess § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c3 tls_h2 httpupgrade CDN vless § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/VM9JThTKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "c3 tls_h2 httpupgrade CDN vmess § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c3 tls_h2 grpc CDN vless § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "VM9JThTUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c3 tls_h2 grpc CDN trojan § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "QClOez8RElKMCmUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c3 tls_h2 grpc CDN vmess § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vcDaZhsM9WvxysUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c3 tls WS CDN vless § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/VM9JThTwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c3 tls WS CDN trojan § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/QClOez8RElKMCmwdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c3 tls WS CDN vmess § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c3 tls httpupgrade CDN vless § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/VM9JThTKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vmess",
-      "tag": "c3 tls httpupgrade CDN vmess § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "c3 tls grpc CDN vless § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "VM9JThTUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "c3 tls grpc CDN trojan § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "password": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "QClOez8RElKMCmUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c3 tls grpc CDN vmess § 443 6",
-      "server": "fonts.com",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "hdfy5persiaserverc3.freeairlaines.com",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vcDaZhsM9WvxysUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c3 http WS CDN vmess § 80 6",
-      "server": "fonts.com",
-      "server_port": 80,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcDaZhsM9WvxyswdL3x7QNuZEwH",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "c3 http httpupgrade CDN vmess § 80 6",
-      "server": "fonts.com",
-      "server_port": 80,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "security": "auto",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/vcDaZhsM9WvxysKh0lWQPcIDB",
-        "headers": {
-          "Host": "hdfy5persiaserverc3.freeairlaines.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "r2 reality grpc direct vless § 443 7",
-      "server": "hdfy5serverpersiad1.afsharidempire.uk",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "tls": {
-        "enabled": true,
-        "server_name": "tgju.org",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b9ZWMerbIoW9d3W7Nes-GC-AuoLRahyn4mnSlNurc14",
-          "short_id": "33"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "VM9JThTUmfBox4IUADVrA",
-        "idle_timeout": "1m55s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "r3 reality XTLS direct vless § 443 8",
-      "server": "hdfy5serverpersiad1.afsharidempire.uk",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdnjs.com",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b9ZWMerbIoW9d3W7Nes-GC-AuoLRahyn4mnSlNurc14",
-          "short_id": "33"
-        }
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "r4 reality XTLS direct vless § 443 9",
-      "server": "hdfy5serverpersiad1.afsharidempire.uk",
-      "server_port": 443,
-      "uuid": "b9e82117-ed3a-4098-8153-100ca12aa523",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nodejs.org",
-        "alpn": "http/1.1",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b9ZWMerbIoW9d3W7Nes-GC-AuoLRahyn4mnSlNurc14",
-          "short_id": "33"
-        }
-      },
-      "packet_encoding": "xudp"
     },
 
+{
+      "type": "shadowsocks",
+      "tag": "1@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3d6d7862-6810-4fd4-a681-4f7d6733538d"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "2@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3b2cafe3-1548-4a38-ba19-f8c2ff806a51"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "3@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "b6fe48e1-e0aa-4a2a-a846-c44cf0745de2"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "4@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "0364b6f0-1eef-423c-a8bb-b2602caa11a4"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "5@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "46b8e7af-ff82-4070-8bdb-342ca7a649a1"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "6@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3977cd9a-51d2-4480-ab0a-c0d666398477"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "7@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "4f655898-268e-4640-b694-d9671b650b21"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "8@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cb9ab882-4ac8-43f7-9b17-c31292bafd53"
+    },
+{
+      "type": "shadowsocks",
+      "tag": "9@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🟡",
+      "server": "tw1-vds7.anyhk.co",
+      "server_port": 30443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "8db4d380-564a-4c79-92e0-590cf70c48cd"
+    },
+
+    {
+      "type": "http",
+      "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇦🇺",
+      "server": "[::ffff:676b:c583]",
+      "server_port": 89,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇪🇸",
+      "server": "185.214.97.110",
+      "server_port": 89,
+      "username": "1VmfJzieuyTfAMnWZVKNKZbR",
+      "password": "F1P4EJa45WxJYNRQKFqVc936",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇭🇺",
+      "server": "::ffff:d5e8:5745",
+      "server_port": 89,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇧🇪",
+      "server": "195.47.194.65",
+      "server_port": 89,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇸🇬",
+      "server": "[::ffff:c0a6:f68c]",
+      "server_port": 90,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊 🇵🇭",
+      "server": "[::ffff:d461:4701]",
+      "server_port": 90,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "@𝕊𝕚ℕ𝔸𝔹𝕚𝔾𝕆🇱🇧",
+      "server": "[::ffff:d461:4603]",
+      "server_port": 89,
+      "username": "yLoEDZiuRqdg8HqQfaEMXhzn",
+      "password": "xFJrJhcRDNSf7a7SCxz1wH4u",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "@𝙎𝙞𝙉𝘼𝘽𝙞𝙂𝙊🇺🇸",
+      "server": "[::ffff:426f:3de9]",
+      "server_port": 90,
+      "username": "E93HGGpA8jQPvnehhrA7DwoD",
+      "password": "C8dAN1ccgBNyBqG4WCFynQXH",
+      "tls": {
+        "enabled": true,
+        "server_name": "gitlab.com",
+        "insecure": true,
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "marilynmanson.link"
+      }
+    },
     {
       "type": "direct",
       "tag": "direct"
@@ -1656,7 +810,7 @@
         "outbound": "block"
       },
       {
-        "clash_mode": "مافیایی میام با کراوات 👔",
+        "clash_mode": "بیاد خدانور لجه ای  🚶🏻",
         "outbound": "𝙎 𝙞 𝙉 𝘼 𝘽 𝙞 𝙂 𝙊 👈کانال+تلگرام"
       },
       {
